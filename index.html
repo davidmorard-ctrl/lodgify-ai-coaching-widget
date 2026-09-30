@@ -17,6 +17,7 @@
       --grey300:#C3D3DF;
       --grey400:#8A939A;
       --grey500:#53575A;
+      --grey600:#2A2929;
     }
     *{box-sizing:border-box}
     html,body{height:100%;margin:0}
@@ -24,59 +25,112 @@
       font-family:'Host Grotesk',system-ui,sans-serif;
       color:var(--black);
       background:var(--grey100);
-      overflow:hidden;position:relative;
+      overflow:hidden;
+      position:relative;
       -webkit-font-smoothing:antialiased;
     }
-    .bg{position:fixed;inset:0;z-index:-3;
-      background:linear-gradient(165deg,var(--white) 0%,var(--grey100) 55%,var(--grey200) 100%);}
-    /* Pioneering Yellow shape, kept to the left so it never sits under the widget panel */
-    .yellow-shape{position:fixed;z-index:-2;bottom:-200px;left:-160px;width:520px;height:520px;
-      border-radius:50%;background:var(--yellow);filter:blur(20px);opacity:.5;}
-    .dots{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.45;
-      background-image:radial-gradient(var(--grey300) 1px,transparent 1px);background-size:26px 26px;
-      -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.6),transparent 70%);
-      mask-image:linear-gradient(to bottom,rgba(0,0,0,.6),transparent 70%);}
 
-    /* content lives in a LEFT column so the right-side widget panel never overlaps it */
-    .wrap{height:100%;display:flex;flex-direction:column;justify-content:center;
-      padding:40px clamp(24px,6vw,72px);max-width:560px;}
-    @media(min-width:900px){ .wrap{max-width:min(560px,50vw);} }
+    /* base wash: white → cool grey */
+    .bg{
+      position:fixed;inset:0;z-index:-3;
+      background:linear-gradient(165deg, var(--white) 0%, var(--grey100) 55%, var(--grey200) 100%);
+    }
+    /* Pioneering Yellow hero shape, top-right */
+    .yellow-shape{
+      position:fixed;z-index:-2;top:-160px;right:-140px;
+      width:620px;height:620px;border-radius:50%;
+      background:var(--yellow);
+      filter:blur(10px);
+      opacity:.9;
+    }
+    .yellow-shape.two{
+      top:auto;bottom:-220px;right:auto;left:-180px;
+      width:460px;height:460px;opacity:.35;filter:blur(40px);
+    }
+    /* subtle grid dots for texture */
+    .dots{
+      position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+      background-image:radial-gradient(var(--grey300) 1px, transparent 1px);
+      background-size:26px 26px;
+      -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,.6), transparent 70%);
+      mask-image:linear-gradient(to bottom, rgba(0,0,0,.6), transparent 70%);
+    }
 
-    .brand{display:flex;align-items:center;margin-bottom:30px;}
-    .brand img{height:30px;width:auto;display:block;}
+    .wrap{
+      height:100%;
+      display:flex;flex-direction:column;justify-content:center;
+      padding:40px 28px 150px;
+      max-width:780px;margin:0 auto;
+    }
 
-    .eyebrow{display:inline-block;align-self:flex-start;font-size:12px;font-weight:600;
-      letter-spacing:.16em;text-transform:uppercase;color:var(--black);background:var(--yellow);
-      padding:6px 12px;border-radius:100px;margin-bottom:20px;}
-    h1{font-family:'Kufam',sans-serif;font-weight:800;font-size:clamp(32px,5vw,52px);
-      line-height:1.03;letter-spacing:-.02em;margin:0 0 18px;}
-    h1 .hl{background:var(--yellow);padding:0 .12em;border-radius:6px;
-      box-decoration-break:clone;-webkit-box-decoration-break:clone;}
-    .lede{font-size:clamp(15px,1.6vw,18px);line-height:1.55;color:var(--grey500);margin:0 0 30px;}
+    .brand{display:inline-flex;align-items:center;gap:11px;margin-bottom:30px}
+    .brand .mark{
+      width:38px;height:38px;border-radius:11px;background:var(--yellow);
+      display:grid;place-items:center;
+      font-family:'Kufam',sans-serif;font-weight:800;color:var(--black);
+      font-size:22px;line-height:1;
+    }
+    .brand .name{font-family:'Kufam',sans-serif;font-weight:700;font-size:20px;color:var(--black);letter-spacing:-.01em}
 
-    .steps{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none;}
-    .steps li{display:flex;align-items:center;gap:9px;background:var(--white);
-      border:1px solid var(--grey200);padding:11px 15px;border-radius:13px;
-      font-size:14px;font-weight:500;box-shadow:0 1px 2px rgba(20,19,19,.04);}
-    .steps .num{width:22px;height:22px;flex:0 0 22px;border-radius:50%;background:var(--black);
-      color:var(--yellow);font-family:'Kufam',sans-serif;font-size:11px;font-weight:700;
-      display:grid;place-items:center;}
+    .eyebrow{
+      display:inline-block;font-family:'Host Grotesk',sans-serif;
+      font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+      color:var(--black);background:var(--yellow);
+      padding:6px 12px;border-radius:100px;margin-bottom:20px;align-self:flex-start;
+    }
+    h1{
+      font-family:'Kufam',sans-serif;font-weight:800;
+      font-size:clamp(34px,6vw,60px);line-height:1.02;letter-spacing:-.02em;
+      margin:0 0 18px;color:var(--black);
+    }
+    h1 .hl{
+      background:var(--yellow);padding:0 .12em;border-radius:6px;
+      box-decoration-break:clone;-webkit-box-decoration-break:clone;
+    }
+    .lede{
+      font-size:clamp(16px,2.2vw,19px);line-height:1.55;color:var(--grey500);
+      max-width:560px;margin:0 0 32px;
+    }
 
-    .hint{margin-top:28px;font-size:14px;color:var(--grey400);font-weight:500;}
+    .steps{display:flex;flex-wrap:wrap;gap:12px;margin:0;padding:0;list-style:none}
+    .steps li{
+      display:flex;align-items:center;gap:10px;
+      background:var(--white);border:1px solid var(--grey200);
+      padding:12px 16px;border-radius:14px;
+      font-size:14.5px;font-weight:500;color:var(--black);
+      box-shadow:0 1px 2px rgba(20,19,19,.04);
+    }
+    .steps .num{
+      width:23px;height:23px;flex:0 0 23px;border-radius:50%;
+      background:var(--black);color:var(--yellow);
+      font-family:'Kufam',sans-serif;font-size:12px;font-weight:700;
+      display:grid;place-items:center;
+    }
+
+    .hint{
+      margin-top:32px;display:inline-flex;align-items:center;gap:8px;
+      font-size:14px;color:var(--grey400);font-weight:500;
+    }
+    .hint .arrow{font-size:17px;color:var(--black);animation:nudge 1.6s ease-in-out infinite}
+    @keyframes nudge{0%,100%{transform:translate(0,0)}50%{transform:translate(4px,4px)}}
+
+    @media (max-width:520px){ .wrap{padding:28px 22px 155px} .yellow-shape{width:440px;height:440px;top:-120px;right:-120px} }
   </style>
 </head>
 <body>
   <div class="bg"></div>
   <div class="yellow-shape"></div>
+  <div class="yellow-shape two"></div>
   <div class="dots"></div>
 
   <main class="wrap">
     <div class="brand">
-      <img src=""logdify_symbol_Profile.png" alt="Lodgify"/>
+      <span class="mark">L</span>
+      <span class="name">Lodgify</span>
     </div>
 
     <span class="eyebrow">SDR Enablement</span>
-    <h1>Sharpen your pitch on a <span class="hl">real-feeling</span> outbound call.</h1>
+    <h1>Sharpen your pitch on a <span class="hl">real-feeling</span> cold call.</h1>
     <p class="lede">
       Practice against an AI Airbnb host before you dial live leads. It plays a busy, slightly guarded prospect,
       throws real objections, and only books the demo if you earn it. Run it as many times as you like — you get a
@@ -84,12 +138,12 @@
     </p>
 
     <ul class="steps">
-      <li><span class="num">1</span> Tap the call button</li>
+      <li><span class="num">1</span> Tap the phone, bottom-right</li>
       <li><span class="num">2</span> Allow your microphone</li>
       <li><span class="num">3</span> Start pitching</li>
     </ul>
 
-    <div class="hint">Your coach is ready on the right — tap the call button to begin.</div>
+    <div class="hint"><span class="arrow">↘</span> Your coach is waiting in the corner — start whenever you're ready.</div>
   </main>
 
   <elevenlabs-convai
