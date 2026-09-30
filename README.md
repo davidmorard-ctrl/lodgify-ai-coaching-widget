@@ -1,0 +1,1 @@
+# lodgify-ai-coaching-widget
