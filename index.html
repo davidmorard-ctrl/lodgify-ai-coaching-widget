@@ -65,16 +65,20 @@
 
     .hint{margin-top:28px;font-size:14px;color:var(--grey400);font-weight:500;}
 
-    .widget-container{
-      position:fixed;
-      bottom:0;
-      right:0;
-      width:440px;
-      height:100%;
-      display:flex;
-      align-items:center;
-      padding-bottom:60px;
-      padding-right:60px;
+    /* Position the widget itself; the wrapper could not move the widget because the
+       embed applies fixed positioning to its host element. */
+    elevenlabs-convai{
+      position:fixed !important;
+      right:60px !important;
+      bottom:60px !important;
+      z-index:10;
+    }
+
+    @media(max-width:899px){
+      elevenlabs-convai{
+        right:24px !important;
+        bottom:24px !important;
+      }
     }
   </style>
 </head>
@@ -108,12 +112,10 @@
     </main>
   </div>
 
-  <div class="widget-container">
-    <elevenlabs-convai
-      agent-id="agent_3301m3rwayvvekn88jhbhh012zre"
-      server-location="eu-residency">
-    </elevenlabs-convai>
-  </div>
+  <elevenlabs-convai
+    agent-id="agent_3301m3rwayvvekn88jhbhh012zre"
+    server-location="eu-residency">
+  </elevenlabs-convai>
 
   <script
     src="https://unpkg.com/@elevenlabs/convai-widget-embed"
