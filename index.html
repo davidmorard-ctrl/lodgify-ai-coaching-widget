@@ -38,9 +38,9 @@
 
     /* stage centers the content; on desktop it reserves room on the right for the widget panel */
     .stage{position:fixed;inset:0;display:flex;align-items:center;}
-    @media(min-width:900px){ .stage{padding-right:440px;padding-left:60px;} }
+    @media(min-width:900px){ .stage{padding-right:440px;} }
 
-    .wrap{width:100%;max-width:800px;margin:0;padding:0 clamp(24px,5vw,48px);}
+    .wrap{width:100%;max-width:620px;margin:0 auto;padding:0 clamp(24px,5vw,48px);}
 
     .brand{display:flex;align-items:center;gap:11px;margin-bottom:28px;}
     .brand .mark{height:34px;width:auto;display:block;border-radius:8px;}
@@ -64,21 +64,6 @@
       display:grid;place-items:center;}
 
     .hint{margin-top:28px;font-size:14px;color:var(--grey400);font-weight:500;}
-
-    /* Position the widget itself */
-    elevenlabs-convai{
-      position:fixed !important;
-      right:60px !important;
-      bottom:120px !important;
-      z-index:10;
-    }
-
-    @media(max-width:899px){
-      elevenlabs-convai{
-        right:24px !important;
-        bottom:24px !important;
-      }
-    }
   </style>
 </head>
 <body>
@@ -115,7 +100,6 @@
     agent-id="agent_3301m3rwayvvekn88jhbhh012zre"
     server-location="eu-residency">
   </elevenlabs-convai>
-
   <script
     src="https://unpkg.com/@elevenlabs/convai-widget-embed"
     async
