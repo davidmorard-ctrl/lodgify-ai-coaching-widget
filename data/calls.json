@@ -1,189 +1,19 @@
 {
- "updated": "2026-10-20T16:00:00+02:00",
+ "updated": "2026-10-21T10:00:00+02:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
   {
-   "id": "conv_6301m3xte4bkej7st095bzs37xz4",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-02T10:07:00+02:00",
-   "dur": 512,
-   "score": 85,
-   "outcome": "booked_demo",
-   "persona": "lifestyle_host",
-   "difficulty": "medium",
-   "objections": 6,
-   "talkHigh": false,
-   "lang": "English",
-   "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 0,
-    "objection_handled_laer": 1,
-    "value_before_price": 1,
-    "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1,
-    "compliance_hook_used_correctly": 1
-   },
-   "why": {
-    "personalized_listing_opening": "Generic opening about Italian hosts with VAT on Booking.com. Nothing from the listing.",
-    "discovery_before_pitch": "Said the host was \"leaving money on the table\" before asking about the setup.",
-    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
-   },
-   "spin": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "obj": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "good": "Overcame the price objection by clearly showing the ROI and commission savings.",
-   "fix": "Quantify the time saved by linking it to specific things the host gets back.",
-   "summary": "Mario · 5 properties, Airbnb + Booking.com"
-  },
-  {
-   "id": "conv_0101m45mzegce159kzzspwhkyanp",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T11:05:00+02:00",
-   "dur": 513,
-   "score": 70,
-   "outcome": "booked_demo",
-   "persona": "single_beginner",
-   "difficulty": "medium",
-   "objections": 4,
-   "talkHigh": true,
-   "lang": "English",
-   "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 0,
-    "objection_handled_laer": 1,
-    "value_before_price": 1,
-    "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1,
-    "compliance_hook_used_correctly": 1
-   },
-   "why": {
-    "personalized_listing_opening": "Opened assuming Italy and Booking.com. The prospect corrected it straight away.",
-    "discovery_before_pitch": "Pitched the general product right after the correction, before discovery.",
-    "compliance_hook_used_correctly": "Prospect was in the UK, so compliance was not relevant."
-   },
-   "spin": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "obj": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "good": "Reframed the \"too much work\" objection by asking how much time manual tasks take today.",
-   "fix": "Give a ballpark price range when the prospect asks for it directly.",
-   "summary": "Maria · 2 lets in Brighton, Airbnb only"
-  },
-  {
-   "id": "conv_3301m45vs0q5e2wvn11ns7pjbv35",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T13:04:00+02:00",
-   "dur": 400,
-   "score": 75,
-   "outcome": "booked_demo",
-   "persona": "lifestyle_host",
-   "difficulty": "hard",
-   "objections": 4,
-   "talkHigh": true,
-   "lang": "English",
-   "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "compliance_hook_used_correctly": 0,
-    "value_connected_to_situation": 1,
-    "objection_handled_laer": 1,
-    "value_before_price": 1,
-    "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
-   },
-   "why": {
-    "personalized_listing_opening": "General hook for Italian hosts on Booking.com. Nothing about Giorgio's own property or reviews.",
-    "compliance_hook_used_correctly": "Mentioned VAT registration but never used Alloggiati, tourist tax or e-invoicing as the hook."
-   },
-   "spin": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "obj": [
-    1,
-    0,
-    0,
-    1
-   ],
-   "good": "Handled the cost and setup objections by showing value and free onboarding.",
-   "fix": "Ask more situation and problem questions before pitching the solution.",
-   "summary": "Giorgio · Booking.com + Airbnb, no channel manager"
-  },
-  {
-   "id": "conv_2101m45wdckrfeyt0a1f8bs763zv",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T13:15:00+02:00",
-   "dur": 555,
-   "score": 75,
-   "outcome": "booked_demo",
-   "persona": "lifestyle_host",
-   "difficulty": "medium",
-   "objections": 3,
-   "talkHigh": true,
-   "lang": "English",
-   "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "compliance_hook_used_correctly": 1,
-    "value_connected_to_situation": 1,
-    "objection_handled_laer": 1,
-    "value_before_price": 1,
-    "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
-   },
-   "why": {
-    "personalized_listing_opening": "Complimented the property and reviews and pointed out the calendar wasn't fully booked.",
-    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
-   },
-   "spin": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "obj": [
-    1,
-    1,
-    0,
-    1
-   ],
-   "good": "Reframed value around commission and time savings, which got past the price objection.",
-   "fix": "Have a ballpark price, or offer to email it, when the prospect asks before agreeing to a demo.",
-   "summary": "2 units, Booking.com + Airbnb, manual calendar sync"
-  },
-  {
-   "id": "conv_9201m46a60veebqb1k2zx2jhhm53",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T17:16:00+02:00",
-   "dur": 383,
+   "id": "conv_9501m5d0rngdet6sf8km46gcpwrq",
+   "user_id": "174e122848622a672608f967c8121f9f",
+   "date": "2026-10-20T18:02:00+02:00",
+   "dur": 643,
    "score": 75,
    "outcome": "booked_demo",
    "persona": "lifestyle_host",
    "difficulty": "medium",
    "objections": 5,
    "talkHigh": true,
-   "lang": "English",
+   "lang": "French",
    "res": {
     "personalized_listing_opening": 1,
     "discovery_before_pitch": 1,
@@ -196,39 +26,126 @@
     "secured_next_step_or_disqualified": 1,
     "maintained_control_and_rapport": 1
    },
-   "why": {
-    "uncovered_compliance_admin": "Asked how she handles e-invoicing and guest registration before pitching."
-   },
+   "why": {},
    "spin": [
     1,
     1,
     1,
-    1
+    null
    ],
    "obj": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "good": "Le représentant a habilement identifié et approfondi le problème de la bureaucratie et du temps perdu par le prospect.",
+   "fix": "Accuser réception des objections initiales du prospect avant de poursuivre la découverte.",
+   "summary": "Marco, guesthouse owner in Florence, Booking.com, 70–80% occupancy, 4–5 hours a week on Italian admin. Sceptical about hidden fees and the Chekin partnership, but agreed to a 15–20 minute demo the next day at 2:30 PM."
+  },
+  {
+   "id": "conv_4701m5d01ydqethv3yhtdyhggvc6",
+   "user_id": "e338cd26e9bf66885f97aaa3889c9cb5",
+   "date": "2026-10-20T17:49:00+02:00",
+   "dur": 224,
+   "score": 40,
+   "outcome": "no_next_step",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": false,
+   "lang": "French",
+   "res": {
+    "personalized_listing_opening": 1,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "uncovered_compliance_admin": 1,
+    "compliance_hook_used_correctly": 1,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 0,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 0
+   },
+   "why": {
+    "objection_handled_laer": "Le prospect a exprimé sa méfiance face à l'automatisation des lois italiennes. L'agent a écouté et reconnu la méfiance mais n'a pas eu le temps d'explorer ou de répondre pleinement avant la fin de l'appel.",
+    "secured_next_step_or_disqualified": "La conversation s'est terminée abruptement sans qu'une prochaine étape concrète (démo, suivi) ne soit demandée ou sécurisée, ni une disqualification claire.",
+    "maintained_control_and_rapport": "L'agent a maintenu un certain contrôle en posant des questions de découverte, mais le prospect était impatient et a coupé court à la fin, l'agent n'a pas réussi à le réengager pleinement."
+   },
+   "spin": [
+    1,
+    1,
+    0,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "good": "Le représentant a tenté de comprendre la situation actuelle du prospect et ses processus de gestion.",
+   "fix": "Mieux préparer les réponses aux objections spécifiques et techniques du prospect, notamment sur l'automatisation et la conformité légale.",
+   "summary": "Valentin, property owner happy with Booking.com, worried about extra work. Very sceptical that software could handle police declarations and tourist tax under Italian law. Call ended unresolved."
+  },
+  {
+   "id": "conv_3301m5cqvpr3e96v81xtzjsy20x6",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-20T15:26:00+02:00",
+   "dur": 538,
+   "score": 50,
+   "outcome": "no_next_step",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "Italian",
+   "res": {
+    "personalized_listing_opening": 1,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "uncovered_compliance_admin": 1,
+    "compliance_hook_used_correctly": 1,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 1
+   },
+   "why": {
+    "personalized_listing_opening": "Opened on her Booking listing in Rome, the good reviews and the calendar not being full.",
+    "secured_next_step_or_disqualified": "Proposed Friday for the demo, but the call dropped before a time was agreed."
+   },
+   "spin": [
     1,
     1,
     0,
     1
    ],
-   "good": "Tied the solution to her 3–4 hours a week on compliance, which led to the demo.",
-   "fix": "Ask about every booking channel she uses, not only Booking.com.",
-   "summary": "Maria · 3 apartments in Bologna, Booking.com only. Call ended with a connection timeout after the demo was agreed."
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Spotted bureaucracy as a pain point and offered a specific solution, which opened her up.",
+   "fix": "Handle the opening objections better and keep the call going until the next step is closed.",
+   "summary": "1 property in Rome, Booking.com only. Call dropped after the rep went silent. Thomas rated the call 5/5 and noted the prospect asked about the 12 months before he had mentioned them."
   },
   {
-   "id": "conv_4501m4tf7cjyfb6vga5e2svh1wjy",
-   "user_id": "30df3d4c62259bc7b36abbc6755a322b",
-   "date": "2026-10-13T13:09:00+02:00",
-   "dur": 467,
-   "score": 75,
-   "outcome": "booked_demo",
-   "persona": "incumbent_switcher",
+   "id": "conv_3401m5cpzss0e68rbjyrrfhxsbz6",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-20T15:11:00+02:00",
+   "dur": 600,
+   "score": 65,
+   "outcome": "soft_next_step",
+   "persona": "lifestyle_host",
    "difficulty": "hard",
-   "objections": 7,
-   "talkHigh": false,
-   "lang": "English",
+   "objections": 6,
+   "talkHigh": true,
+   "lang": "Italian",
    "res": {
-    "personalized_listing_opening": 1,
+    "personalized_listing_opening": 0,
     "discovery_before_pitch": 1,
     "asked_channel_qualifier": 1,
     "uncovered_compliance_admin": 1,
@@ -236,12 +153,13 @@
     "value_connected_to_situation": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
-    "secured_next_step_or_disqualified": 1,
+    "secured_next_step_or_disqualified": 0,
     "maintained_control_and_rapport": 1
    },
    "why": {
-    "personalized_listing_opening": "Opened on his Airbnb listing and the calendar not being fully booked.",
-    "uncovered_compliance_admin": "Asked \"Alloggiati Web? Tourist tax and invoices?\" before pitching Chekin."
+    "personalized_listing_opening": "Generic: \"calling about your property that's active on Booking\". Nothing about the listing itself.",
+    "secured_next_step_or_disqualified": "Offered a 30-minute Google Meet demo but never proposed a time.",
+    "value_before_price": "Price was never discussed in detail."
    },
    "spin": [
     1,
@@ -255,9 +173,9 @@
     1,
     1
    ],
-   "good": "Addressed his Italian compliance concern head-on, which was the turning point for the demo.",
-   "fix": "Ask sharper problem questions earlier, instead of leading with generic time savings.",
-   "summary": "Marco · Airbnb + Booking.com, 70–80% occupancy, manual calendars"
+   "good": "Found bureaucracy as the host's pain and tied Lodgify to it.",
+   "fix": "Dig into the implications of the problem before presenting the solution.",
+   "summary": "2 apartments, Booking.com only. Call hit the 10-minute maximum."
   },
   {
    "id": "conv_5401m4tg15c6fjytxshce87szb6c",
@@ -307,62 +225,17 @@
    "summary": "Marco · B&B, 4 rooms, Booking.com, high occupancy"
   },
   {
-   "id": "conv_3401m5cpzss0e68rbjyrrfhxsbz6",
-   "user_id": "883e41df7c4b57ede2c305647128f47a",
-   "date": "2026-10-20T15:11:00+02:00",
-   "dur": 600,
-   "score": 65,
-   "outcome": "soft_next_step",
-   "persona": "lifestyle_host",
+   "id": "conv_4501m4tf7cjyfb6vga5e2svh1wjy",
+   "user_id": "30df3d4c62259bc7b36abbc6755a322b",
+   "date": "2026-10-13T13:09:00+02:00",
+   "dur": 467,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "incumbent_switcher",
    "difficulty": "hard",
-   "objections": 6,
-   "talkHigh": true,
-   "lang": "Italian",
-   "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
-    "value_connected_to_situation": 1,
-    "objection_handled_laer": 1,
-    "value_before_price": 1,
-    "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 1
-   },
-   "why": {
-    "personalized_listing_opening": "Generic: \"calling about your property that's active on Booking\". Nothing about the listing itself.",
-    "secured_next_step_or_disqualified": "Offered a 30-minute Google Meet demo but never proposed a time.",
-    "value_before_price": "Price was never discussed in detail."
-   },
-   "spin": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "obj": [
-    1,
-    1,
-    1,
-    1
-   ],
-   "good": "Found bureaucracy as the host's pain and tied Lodgify to it.",
-   "fix": "Dig into the implications of the problem before presenting the solution.",
-   "summary": "2 apartments, Booking.com only. Call hit the 10-minute maximum."
-  },
-  {
-   "id": "conv_3301m5cqvpr3e96v81xtzjsy20x6",
-   "user_id": "883e41df7c4b57ede2c305647128f47a",
-   "date": "2026-10-20T15:26:00+02:00",
-   "dur": 538,
-   "score": 50,
-   "outcome": "no_next_step",
-   "persona": "lifestyle_host",
-   "difficulty": "medium",
-   "objections": 4,
-   "talkHigh": true,
-   "lang": "Italian",
+   "objections": 7,
+   "talkHigh": false,
+   "lang": "English",
    "res": {
     "personalized_listing_opening": 1,
     "discovery_before_pitch": 1,
@@ -372,17 +245,17 @@
     "value_connected_to_situation": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
-    "secured_next_step_or_disqualified": 0,
+    "secured_next_step_or_disqualified": 1,
     "maintained_control_and_rapport": 1
    },
    "why": {
-    "personalized_listing_opening": "Opened on her Booking listing in Rome, the good reviews and the calendar not being full.",
-    "secured_next_step_or_disqualified": "Proposed Friday for the demo, but the call dropped before a time was agreed."
+    "personalized_listing_opening": "Opened on his Airbnb listing and the calendar not being fully booked.",
+    "uncovered_compliance_admin": "Asked \"Alloggiati Web? Tourist tax and invoices?\" before pitching Chekin."
    },
    "spin": [
     1,
     1,
-    0,
+    1,
     1
    ],
    "obj": [
@@ -391,9 +264,222 @@
     1,
     1
    ],
-   "good": "Spotted bureaucracy as a pain point and offered a specific solution, which opened her up.",
-   "fix": "Handle the opening objections better and keep the call going until the next step is closed.",
-   "summary": "1 property in Rome, Booking.com only. Call dropped after the rep went silent. Thomas rated the call 5/5 and noted the prospect asked about the 12 months before he had mentioned them."
+   "good": "Addressed his Italian compliance concern head-on, which was the turning point for the demo.",
+   "fix": "Ask sharper problem questions earlier, instead of leading with generic time savings.",
+   "summary": "Marco · Airbnb + Booking.com, 70–80% occupancy, manual calendars"
+  },
+  {
+   "id": "conv_9201m46a60veebqb1k2zx2jhhm53",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-10-05T17:16:00+02:00",
+   "dur": 383,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 5,
+   "talkHigh": true,
+   "lang": "English",
+   "res": {
+    "personalized_listing_opening": 1,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "uncovered_compliance_admin": 1,
+    "compliance_hook_used_correctly": 1,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1
+   },
+   "why": {
+    "uncovered_compliance_admin": "Asked how she handles e-invoicing and guest registration before pitching."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "Tied the solution to her 3–4 hours a week on compliance, which led to the demo.",
+   "fix": "Ask about every booking channel she uses, not only Booking.com.",
+   "summary": "Maria · 3 apartments in Bologna, Booking.com only. Call ended with a connection timeout after the demo was agreed."
+  },
+  {
+   "id": "conv_2101m45wdckrfeyt0a1f8bs763zv",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-10-05T13:15:00+02:00",
+   "dur": 555,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 3,
+   "talkHigh": true,
+   "lang": "English",
+   "res": {
+    "personalized_listing_opening": 1,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "compliance_hook_used_correctly": 1,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1
+   },
+   "why": {
+    "personalized_listing_opening": "Complimented the property and reviews and pointed out the calendar wasn't fully booked.",
+    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "Reframed value around commission and time savings, which got past the price objection.",
+   "fix": "Have a ballpark price, or offer to email it, when the prospect asks before agreeing to a demo.",
+   "summary": "2 units, Booking.com + Airbnb, manual calendar sync"
+  },
+  {
+   "id": "conv_3301m45vs0q5e2wvn11ns7pjbv35",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-10-05T13:04:00+02:00",
+   "dur": 400,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "English",
+   "res": {
+    "personalized_listing_opening": 0,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "compliance_hook_used_correctly": 0,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1
+   },
+   "why": {
+    "personalized_listing_opening": "General hook for Italian hosts on Booking.com. Nothing about Giorgio's own property or reviews.",
+    "compliance_hook_used_correctly": "Mentioned VAT registration but never used Alloggiati, tourist tax or e-invoicing as the hook."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "good": "Handled the cost and setup objections by showing value and free onboarding.",
+   "fix": "Ask more situation and problem questions before pitching the solution.",
+   "summary": "Giorgio · Booking.com + Airbnb, no channel manager"
+  },
+  {
+   "id": "conv_0101m45mzegce159kzzspwhkyanp",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-10-05T11:05:00+02:00",
+   "dur": 513,
+   "score": 70,
+   "outcome": "booked_demo",
+   "persona": "single_beginner",
+   "difficulty": "medium",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "English",
+   "res": {
+    "personalized_listing_opening": 0,
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "personalized_listing_opening": "Opened assuming Italy and Booking.com. The prospect corrected it straight away.",
+    "discovery_before_pitch": "Pitched the general product right after the correction, before discovery.",
+    "compliance_hook_used_correctly": "Prospect was in the UK, so compliance was not relevant."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Reframed the \"too much work\" objection by asking how much time manual tasks take today.",
+   "fix": "Give a ballpark price range when the prospect asks for it directly.",
+   "summary": "Maria · 2 lets in Brighton, Airbnb only"
+  },
+  {
+   "id": "conv_6301m3xte4bkej7st095bzs37xz4",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-10-02T10:07:00+02:00",
+   "dur": 512,
+   "score": 85,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 6,
+   "talkHigh": false,
+   "lang": "English",
+   "res": {
+    "personalized_listing_opening": 0,
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "personalized_listing_opening": "Generic opening about Italian hosts with VAT on Booking.com. Nothing from the listing.",
+    "discovery_before_pitch": "Said the host was \"leaving money on the table\" before asking about the setup.",
+    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Overcame the price objection by clearly showing the ROI and commission savings.",
+   "fix": "Quantify the time saved by linking it to specific things the host gets back.",
+   "summary": "Mario · 5 properties, Airbnb + Booking.com"
   }
  ]
 }
