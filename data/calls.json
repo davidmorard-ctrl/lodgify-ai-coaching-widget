@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-21T10:00:00+02:00",
+ "updated": "2026-10-21T16:00:39.152Z",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_4601m5f65pbzer0tvvxgb8j6eda0",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-21T14:14:00+02:00",
+   "dur": 451,
+   "score": 60,
+   "outcome": "soft_next_step",
+   "persona": "analytical_grower",
+   "difficulty": "hard",
+   "objections": 5,
+   "talkHigh": true,
+   "lang": "Italian",
+   "res": {
+    "personalized_listing_opening": 1,
+    "discovery_before_pitch": 1,
+    "asked_channel_qualifier": 1,
+    "uncovered_compliance_admin": 1,
+    "compliance_hook_used_correctly": 1,
+    "value_connected_to_situation": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 1
+   },
+   "why": {
+    "secured_next_step_or_disqualified": "L'agente ha tentato di fissare una demo, ma l'host ha rifiutato, chiedendo di ricevere una mail e di parlarne con il socio, senza che l'agente riuscisse a ottenere un impegno concreto per il passo successivo."
+   },
+   "spin": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha spiegato chiaramente i tre principali benefici di Logify in modo conciso.",
+   "fix": "Chiedere domande di approfondimento sulle obiezioni per comprenderne meglio la radice prima di rispondere.",
+   "summary": "Host on Booking.com, Airbnb and direct (branch: 2-5 units, Hard, Chiara). Interested in automating the bureaucracy but hesitant on cost. Quoted €56/month for Ultimate yearly. Declined a demo to discuss with a business partner first; rep agreed to send an email."
+  },
   {
    "id": "conv_9501m5d0rngdet6sf8km46gcpwrq",
    "user_id": "174e122848622a672608f967c8121f9f",
