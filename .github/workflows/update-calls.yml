@@ -37,4 +37,6 @@ jobs:
           else
             git commit -m "Update roleplay results $(date -u +%F)"
             git push
+            # Pushes made by this workflow don't trigger the Pages deploy, so start it explicitly
+            gh workflow run static.yml --ref main
           fi
