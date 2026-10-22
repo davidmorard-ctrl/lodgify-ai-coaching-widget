@@ -15,7 +15,7 @@ AGENT_ID = os.environ.get("AGENT_ID", "agent_3301m3rwayvvekn88jhbhh012zre")
 MIN_SECONDS = 20  # skip greetings, hang-ups and connection tests
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "calls.json")
 
-KEY = os.environ.get("sk_4cc723dda8c20544f76ceba42274248bb3ff70f383019916_residency_eu")
+KEY = os.environ.get("ELEVENLABS_API_KEY")
 if not KEY:
     sys.exit("ELEVENLABS_API_KEY is not set")
 
