@@ -5,7 +5,7 @@
   },
   "30df3d4c62259bc7b36abbc6755a322b": {
     "name": "Melanie",
-    "role": "SDR"
+    "role": "Sales Manager"
   },
   "883e41df7c4b57ede2c305647128f47a": {
     "name": "Thomas",
@@ -17,6 +17,10 @@
   },
   "174e122848622a672608f967c8121f9f": {
     "name": "Valentin",
-    "role": "SDR"
-  }
+    "role": "Senior Sales Specialist"
+  },
+  {"340c7bbc49d529762267b2a829153526":
+  "name": "Isabel",
+  "role": "SDR"
+}
 }
