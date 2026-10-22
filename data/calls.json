@@ -1,11 +1,394 @@
 {
- "updated": "2026-10-21T16:00:39.152Z",
+ "updated": "2026-10-22T14:14:49.466603+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
   {
+   "id": "conv_4301m5hwnefrfyk8h0ykwwa67pnd",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-22T13:26:32+00:00",
+   "dur": 684,
+   "score": 55,
+   "outcome": "soft_next_step",
+   "persona": "incumbent_switcher",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "secured_demo_or_disqualified": "L'agente ha proposto una demo gratuita di 30 minuti con uno specialista e ha tentato di fissare un appuntamento. Tuttavia, l'host ha rifiutato, chiedendo un'email e dicendo che avrebbe richiamato lei, senza che l'agente riuscisse a fissare un impegno concreto.",
+    "secured_next_step_or_disqualified": "L'agente ha proposto una demo e ha tentato di fissare un appuntamento, ma l'host ha rifiutato, chiedendo un'email e dicendo che avrebbe richiamato lei, senza che l'agente riuscisse a ottenere un impegno concreto."
+   },
+   "spin": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha identificato i problemi della lead legati alla gestione burocratica e al tempo perso per sincronizzare i calendari.",
+   "fix": "Migliorare la gestione delle obiezioni sul costo, collegando il valore in modo più convincente e proponendo un next step più concreto.",
+   "summary": "A Logify sales agent contacted a property owner managing three apartments on Booking and Airbnb. The owner, initially busy and skeptical about software costs, expressed challenges with time-consuming tasks like price management and bureaucracy.\n\nLogify proposed its platform to automate multi-platform listings, enable direct bookings, and streamline bureaucratic processes, including integration with Check-in for compliance. The owner raised concerns about the €115/month cost for three apartments and the long-term commitment.\n\nLogify clarified the annual plan includes Check-in for the first year and offers a 15-day refund. The owner requested an email summary of costs and features to discuss with her husband, stating they would initiate contact if interested in a demo. The agent agreed to send the email."
+  },
+  {
+   "id": "conv_5101m5hvzy77eqp8zz3xhbp9jfpm",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-22T13:14:47+00:00",
+   "dur": 670,
+   "score": 40,
+   "outcome": "lost",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 7,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 0,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 0,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "objection_handled_arc": "La host ha sollevato l'obiezione sul commercialista e sul costo. Il rep ha tentato di re-inquadrare il costo come non aggiuntivo e ha chiarito il ruolo del commercialista, ma ha poi insistito per la demo senza esplorare a fondo l'obiezione o chiudere con una domanda chiara, portando a un'escalation.",
+    "secured_demo_or_disqualified": "Il rep ha chiesto più volte di fissare una demo, proponendo uno slot provvisorio e chiedendo gli indirizzi email, ma non è riuscito a ottenerla e la chiamata si è conclusa con un rifiuto netto da parte della host.",
+    "maintained_control_and_rapport": "Il rep ha mantenuto una struttura chiara per gran parte della chiamata, ma ha perso il controllo e il rapporto alla fine, quando ha detto \"siamo sinceri, non la leggerete\", provocando una reazione negativa e la chiusura della chiamata da parte della host.",
+    "objection_handled_laer": "La host ha sollevato l'obiezione sul commercialista. Il rep ha ascoltato, riconosciuto il punto, ma non ha esplorato a fondo con domande chiarificatrici, passando subito alla risposta e alla richiesta di demo, che ha portato a un'ulteriore resistenza.",
+    "secured_next_step_or_disqualified": "Il rep ha tentato di fissare una demo, ma la chiamata si è conclusa con un rifiuto esplicito della host, senza un passo successivo concreto o una corretta squalifica."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "Il rep è stato onesto e trasparente riguardo alla responsabilità legale del prospect, guadagnando un momento di fiducia.",
+   "fix": "Evitare di fare supposizioni negative sulle intenzioni del prospect, specialmente in modo provocatorio.",
+   "summary": "Thomas from Logify contacted Elena, a vacation rental owner, to promote their property management software. Elena, initially hesitant, showed interest in Logify's bureaucracy automation features (Alloggiati Web, e-invoices) but expressed skepticism regarding costs (€56/month annual plan), integrating with her existing accountant, and a third-party service (Check-in). She requested an informational email and time to consult her husband. However, the agent's dismissive remark about her not reading the email and persistent push for a demo appointment led to Elena's annoyance and the call's abrupt termination."
+  },
+  {
+   "id": "conv_7301m5hstz0qekfv6k8v6k12nyd3",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-22T12:37:07+00:00",
+   "dur": 487,
+   "score": 80,
+   "outcome": "booked_demo",
+   "persona": "incumbent_switcher",
+   "difficulty": "hard",
+   "objections": 5,
+   "talkHigh": false,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "discovery_before_pitch": "Il rappresentante ha iniziato con un pitch generico sulle funzionalità di Lodgify prima di porre domande di scoperta sulla situazione del cliente."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha gestito efficacemente le obiezioni del prospect, in particolare quelle relative al costo e al cambio di gestionale.",
+   "fix": "Approfondire le implicazioni del problema burocratico quantificando il tempo e il denaro persi prima di presentare la soluzione.",
+   "summary": "Isabel from Loggi.fai contacted the agent, who manages 12 apartments and uses Octorate, to offer a property management software. The agent was initially hesitant but revealed Octorate's weakness in handling Italian bureaucracy (Alloggiati Web, tourist tax, electronic invoices), which consumes significant time. Isabel proposed Loggi.fai's solution, emphasizing automation of these tasks, including a promotional integration with Chekin at a competitive price. After addressing the agent's skepticism about cost and functionality, the agent agreed to a 15-20 minute demo call for the next morning at 11 AM to specifically see the Chekin integration for bureaucratic processes."
+  },
+  {
+   "id": "conv_1501m5hg904ke7gbabz2jq31ddzc",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-22T09:50:01+00:00",
+   "dur": 606,
+   "score": 55,
+   "outcome": "no_next_step",
+   "persona": "analytical_grower",
+   "difficulty": "hard",
+   "objections": 7,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "secured_demo_or_disqualified": "L'agente ha chiesto più volte di fissare una videochiamata informativa, proponendo anche orari specifici, ma non è riuscito a ottenerla, finendo per inviare una mail.",
+    "secured_next_step_or_disqualified": "L'agente ha tentato più volte di fissare un appuntamento per una demo, ma non è riuscito a ottenerlo, finendo per inviare una mail senza un passo successivo concreto e fissato."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha identificato un punto dolente specifico dell'agente riguardo alla burocrazia e al tempo perso nella gestione delle pratiche.",
+   "fix": "Migliorare la gestione delle obiezioni, specialmente quelle relative al costo e alla necessità di consultare altri, per fissare un next step concreto.",
+   "summary": "Isabel from Logify contacted Mario about his short-term rental listing on Booking.com, offering Logify's property management software. She highlighted benefits like multi-platform presence, a direct booking website to reduce commissions, and automated bureaucracy management (e.g., Alloggiati Web, invoices) through a Chekin partnership.\n\nMario was initially hesitant, citing satisfaction with Booking.com and concerns about direct booking bureaucracy, costs, and legal responsibility. Isabel tried to schedule an informational video call, even suggesting Mario's wife could join. However, Mario insisted on receiving all detailed information, including costs and the Chekin agreement, via email first. He stated he would review it and contact them if interested. Isabel agreed to send the email and follow up the next day."
+  },
+  {
+   "id": "conv_1901m5hg7gj3f8srh5c1z7q0y3dv",
+   "user_id": "01127599ff77bffd52c215ff51c0ba5b",
+   "date": "2026-10-22T09:49:13+00:00",
+   "dur": 678,
+   "score": 30,
+   "outcome": "no_next_step",
+   "persona": "analytical_grower",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "ES",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "secured_demo_or_disqualified": "El agente intentó repetidamente asegurar una demo con un especialista, proponiendo horarios específicos. Sin embargo, el usuario se negó rotundamente y pidió solo un correo, por lo que no se logró asegurar la demo.",
+    "secured_next_step_or_disqualified": "El agente intentó repetidamente asegurar una demo como siguiente paso concreto, proponiendo horarios específicos. Sin embargo, el prospecto se negó y pidió solo un correo, por lo que no se logró asegurar el paso."
+   },
+   "spin": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "good": "El rep preguntó si Airbnb era la única plataforma que usaba el prospecto, iniciando la calificación de su situación.",
+   "fix": "Escuchar y validar las objeciones del prospecto sobre la falta de tiempo y la satisfacción con su sistema actual antes de insistir en la demo.",
+   "summary": "The user, a Logify representative, contacted a vacation rental owner to promote their platform. The owner, managing 12 apartments with Octorate PMS and listed on Booking.com/Airbnb, expressed satisfaction with their current setup but highlighted challenges with Italian administrative tasks (Alloggiati Web, tourist tax, electronic invoices).\n\nThe user emphasized Logify's automation features for these tasks, along with benefits like increased visibility and direct bookings. Despite persistent attempts to schedule a personalized demo, the owner repeatedly declined due to lack of time and reluctance to switch systems. The owner requested an email with detailed information on the Italian legal aspects and costs, stating they would review it and initiate contact if interested. The user agreed to send the email."
+  },
+  {
+   "id": "conv_1901m5hg5z59fmd9ak6habyy3vtq",
+   "user_id": "01127599ff77bffd52c215ff51c0ba5b",
+   "date": "2026-10-22T09:48:22+00:00",
+   "dur": 41,
+   "score": 10,
+   "outcome": "no_next_step",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 1,
+   "talkHigh": true,
+   "lang": "ES",
+   "res": {
+    "objection_handled_arc": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 0,
+    "personalized_listing_opening": 1
+   },
+   "why": {
+    "objection_handled_arc": "El prospecto indicó que solo tenía un minuto. El agente (user) reconoció (\"Sí, sí, lo entiendo\") e intentó reencuadrar (\"va a ser muy rápido\"), pero no llegó a cerrar con una pregunta clara, por lo que no se completó el ciclo ARC.",
+    "discovery_before_pitch": "El agente (user) comenzó con una observación sobre el anuncio de Airbnb del prospecto antes de hacer preguntas de descubrimiento significativas sobre su situación o negocio.",
+    "objection_handled_laer": "El prospecto planteó la objeción de tener poco tiempo. El agente (user) escuchó y reconoció, pero no exploró la objeción con preguntas ni respondió con valor relevante antes de que la conversación se cortara."
+   },
+   "spin": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "good": "El agente se presentó claramente a sí mismo y a la empresa al comienzo de la llamada.",
+   "fix": "Manejar la objeción inicial de tiempo de manera más efectiva para poder continuar con la llamada.",
+   "summary": "Chaima from Logify called Alba regarding her Airbnb listing. Alba, initially cautious and stating she only had a minute, was informed by Chaima that the call would be quick and related to her Airbnb ad. The conversation is still in its introductory phase."
+  },
+  {
+   "id": "conv_1201m5hg35spep2srsf9k7f914c3",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-22T09:46:51+00:00",
+   "dur": 71,
+   "score": 10,
+   "outcome": "lost",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 1,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_and_scenario": 0,
+    "objection_handled_arc": 0,
+    "value_connected_to_situation": 0,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_opening": 1,
+    "asked_channel_qualifier": 0,
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 0,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1
+   },
+   "why": {
+    "discovery_and_scenario": "The rep did not conduct any discovery. The conversation ended very early with the rep breaking character, so no scenario could be identified.",
+    "objection_handled_arc": "The prospect raised an objection (\"I am right in the middle of something. What is this about, exactly?\"), but the rep did not handle it with Acknowledge, Reframe, Close. Instead, the rep gave a generic description of Logify.",
+    "value_connected_to_situation": "The conversation ended prematurely with the rep breaking character, so no value could be connected to the host's specific situation.",
+    "secured_demo_or_disqualified": "The call ended with the rep breaking character and expressing nervousness. No demo was secured, nor was the host disqualified.",
+    "maintained_control_and_rapport": "The rep lost control of the conversation by breaking character and expressing nervousness (\"She killed me. She put me really nervous.\"). Rapport was not maintained.",
+    "asked_channel_qualifier": "The conversation ended too early with the rep breaking character, so the rep did not ask about the host's current booking platforms.",
+    "discovery_before_pitch": "The rep did not ask any meaningful discovery questions before attempting to pitch Logify as a \"property management system\" and then breaking character.",
+    "objection_handled_laer": "The prospect raised an objection (\"I am right in the middle of something. What is this about, exactly?\"), but the rep did not handle it with Listen, Acknowledge, Explore, Respond. Instead, the rep gave a generic description.",
+    "secured_next_step_or_disqualified": "The call ended with the rep breaking character and expressing nervousness. No next step was secured, nor was the host disqualified."
+   },
+   "spin": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "good": "The rep correctly identified the prospect's name and property at the beginning of the call.",
+   "fix": "Develop a concise and compelling opening statement to overcome immediate prospect disinterest and time constraints.",
+   "summary": "Sibel from Logify property management contacted Mario regarding his Florence Airbnb listing. Mario confirmed ownership but stated he was busy and did not recognize Logify. The conversation ended with Mario expressing confusion over Sibel's subsequent off-topic remarks."
+  },
+  {
+   "id": "conv_8001m5hezt0ee8naf4m8mwmyqcge",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-22T09:27:32+00:00",
+   "dur": 390,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "analytical_grower",
+   "difficulty": "medium",
+   "objections": 2,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 0,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 0
+   },
+   "why": {
+    "uncovered_compliance_admin": "The rep did not ask about Italian compliance admin (Alloggiati Web, SDI, tourist tax).",
+    "compliance_hook_used_correctly": "The rep did not mention or use the Italian compliance angle (Alloggiati, tourist tax, SDI) as a hook or relevance point during the conversation."
+   },
+   "spin": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "The rep effectively tied the solution to the prospect's stated pain point of double-bookings and manual calendar updates.",
+   "fix": "Acknowledge and explore the primary objection before responding to it.",
+   "summary": "A Lodgify representative cold-called a property owner to pitch their property management software. The owner, managing three apartments in Florence across Booking.com, Airbnb, and direct bookings, expressed frustration with manual calendar updates and frequent double-bookings.\n\nDespite initial skepticism about the unsolicited call and potential costs, the representative positioned Lodgify as an investment to improve occupancy and streamline operations. The owner ultimately agreed to schedule a 15-minute demo with a specialist for the following morning at 10:00, requesting an email with the meeting link."
+  },
+  {
    "id": "conv_4601m5f65pbzer0tvvxgb8j6eda0",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
-   "date": "2026-10-21T14:14:00+02:00",
+   "date": "2026-10-21T12:14:58+00:00",
    "dur": 451,
    "score": 60,
    "outcome": "soft_next_step",
@@ -13,20 +396,26 @@
    "difficulty": "hard",
    "objections": 5,
    "talkHigh": true,
-   "lang": "Italian",
+   "lang": "IT",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 0,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
    "why": {
+    "objection_handled_arc": "L'obiezione principale era il prezzo e la necessità di parlarne con il socio. L'agente ha riconosciuto il costo (\"56 euro al mese non è poco\"), ha cercato di riframare il valore (\"una prenotazione in più copre il costo\"), ma non ha chiuso con una domanda chiara per superare l'obiezione, insistendo sullo slot provvisorio che è stato rifiutato.",
+    "secured_demo_or_disqualified": "L'agente ha chiesto di prenotare una demo e ha proposto di fissare un appuntamento. Tuttavia, non è riuscito a fissare un orario specifico e l'host ha rifiutato, chiedendo di ricevere prima una mail e di riparlarne con il socio.",
     "secured_next_step_or_disqualified": "L'agente ha tentato di fissare una demo, ma l'host ha rifiutato, chiedendo di ricevere una mail e di parlarne con il socio, senza che l'agente riuscisse a ottenere un impegno concreto per il passo successivo."
    },
    "spin": [
@@ -43,12 +432,12 @@
    ],
    "good": "Il rep ha spiegato chiaramente i tre principali benefici di Logify in modo conciso.",
    "fix": "Chiedere domande di approfondimento sulle obiezioni per comprenderne meglio la radice prima di rispondere.",
-   "summary": "Host on Booking.com, Airbnb and direct (branch: 2-5 units, Hard, Chiara). Interested in automating the bureaucracy but hesitant on cost. Quoted €56/month for Ultimate yearly. Declined a demo to discuss with a business partner first; rep agreed to send an email."
+   "summary": "The conversation began with a Logify sales representative contacting a vacation rental owner about their property listed on Booking. The owner confirmed using Booking, Airbnb, and direct bookings. The representative introduced Logify, a management system offering multi-platform distribution, a direct booking website, and real-time synchronization, highlighting benefits like increased bookings, reduced commissions, and automated bureaucracy.\n\nThe owner expressed interest in bureaucracy automation but was hesitant about the cost. The representative quoted €56/month for the Ultimate plan (annual, one property) and suggested a demo. The owner declined to schedule a demo immediately, citing the need to discuss with a business partner and review details via email due to cost concerns. The call concluded with the representative agreeing to send an email with information."
   },
   {
    "id": "conv_9501m5d0rngdet6sf8km46gcpwrq",
    "user_id": "174e122848622a672608f967c8121f9f",
-   "date": "2026-10-20T18:02:00+02:00",
+   "date": "2026-10-20T16:02:00+00:00",
    "dur": 643,
    "score": 75,
    "outcome": "booked_demo",
@@ -56,18 +445,22 @@
    "difficulty": "medium",
    "objections": 5,
    "talkHigh": true,
-   "lang": "French",
+   "lang": "FR",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
    "why": {},
    "spin": [
@@ -84,12 +477,12 @@
    ],
    "good": "Le représentant a habilement identifié et approfondi le problème de la bureaucratie et du temps perdu par le prospect.",
    "fix": "Accuser réception des objections initiales du prospect avant de poursuivre la découverte.",
-   "summary": "Marco, guesthouse owner in Florence, Booking.com, 70–80% occupancy, 4–5 hours a week on Italian admin. Sceptical about hidden fees and the Chekin partnership, but agreed to a 15–20 minute demo the next day at 2:30 PM."
+   "summary": "Valentin from Lodgify called Marco, a guesthouse owner in Florence, to pitch Lodgify's property management software. Marco, who primarily uses Booking.com with 70-80% occupancy, expressed satisfaction but also frustration with the 4-5 hours weekly spent on administrative tasks (Italian bureaucracy, electronic invoices).\n\nValentin highlighted Lodgify's benefits: increasing bookings by integrating with other platforms (e.g., Airbnb), enabling direct bookings via a website to avoid high commissions, and automating bureaucratic processes (Alloggiati Web, Istat, tourist tax, electronic invoicing) through a free Chekin integration.\n\nDespite initial skepticism about hidden fees and the Chekin partnership, Marco agreed to a 15-20 minute demo call with a specialist the following day at 2:30 PM, hoping to alleviate his administrative burden."
   },
   {
    "id": "conv_4701m5d01ydqethv3yhtdyhggvc6",
    "user_id": "e338cd26e9bf66885f97aaa3889c9cb5",
-   "date": "2026-10-20T17:49:00+02:00",
+   "date": "2026-10-20T15:49:35+00:00",
    "dur": 224,
    "score": 40,
    "outcome": "no_next_step",
@@ -97,23 +490,28 @@
    "difficulty": "hard",
    "objections": 4,
    "talkHigh": false,
-   "lang": "French",
+   "lang": "FR",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 0,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 0,
-    "value_before_price": 1,
     "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 0
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
    "why": {
+    "objection_handled_arc": "Le prospect a soulevé l'objection du \"travail en plus\" et de la \"complication\". L'agent a reconnu la préoccupation (\"J'comprends\") mais n'a pas vraiment reformulé ni clos avec une question claire après avoir présenté la solution d'automatisation.",
+    "secured_demo_or_disqualified": "La conversation s'est terminée abruptement sans que l'agent ne propose de démo ni ne disqualifie le prospect. Il n'y a pas eu de prochaine étape concrète.",
+    "maintained_control_and_rapport": "L'agent a maintenu un certain contrôle en posant des questions de découverte, mais le prospect était impatient et a coupé court à la fin, l'agent n'a pas réussi à le réengager pleinement.",
     "objection_handled_laer": "Le prospect a exprimé sa méfiance face à l'automatisation des lois italiennes. L'agent a écouté et reconnu la méfiance mais n'a pas eu le temps d'explorer ou de répondre pleinement avant la fin de l'appel.",
-    "secured_next_step_or_disqualified": "La conversation s'est terminée abruptement sans qu'une prochaine étape concrète (démo, suivi) ne soit demandée ou sécurisée, ni une disqualification claire.",
-    "maintained_control_and_rapport": "L'agent a maintenu un certain contrôle en posant des questions de découverte, mais le prospect était impatient et a coupé court à la fin, l'agent n'a pas réussi à le réengager pleinement."
+    "secured_next_step_or_disqualified": "La conversation s'est terminée abruptement sans qu'une prochaine étape concrète (démo, suivi) ne soit demandée ou sécurisée, ni une disqualification claire."
    },
    "spin": [
     1,
@@ -129,12 +527,12 @@
    ],
    "good": "Le représentant a tenté de comprendre la situation actuelle du prospect et ses processus de gestion.",
    "fix": "Mieux préparer les réponses aux objections spécifiques et techniques du prospect, notamment sur l'automatisation et la conformité légale.",
-   "summary": "Valentin, property owner happy with Booking.com, worried about extra work. Very sceptical that software could handle police declarations and tourist tax under Italian law. Call ended unresolved."
+   "summary": "Axel from Logify called Valentin, a property owner, to discuss expanding beyond Booking.com. Valentin, content with Booking.com, expressed reluctance due to perceived added work. Axel highlighted potential for 30-40% more bookings and then proposed automating administrative tasks like police declarations and tax calculations. Valentin was highly skeptical, questioning if Logify's software could handle these legal responsibilities under Italian law, leaving the conversation unresolved."
   },
   {
    "id": "conv_3301m5cqvpr3e96v81xtzjsy20x6",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
-   "date": "2026-10-20T15:26:00+02:00",
+   "date": "2026-10-20T13:26:22+00:00",
    "dur": 538,
    "score": 50,
    "outcome": "no_next_step",
@@ -142,22 +540,26 @@
    "difficulty": "medium",
    "objections": 4,
    "talkHigh": true,
-   "lang": "Italian",
+   "lang": "IT",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
    "why": {
-    "personalized_listing_opening": "Opened on her Booking listing in Rome, the good reviews and the calendar not being full.",
-    "secured_next_step_or_disqualified": "Proposed Friday for the demo, but the call dropped before a time was agreed."
+    "secured_demo_or_disqualified": "L'agente ha chiesto chiaramente una demo e ha proposto una data specifica (\"venerdì\"), ma la chiamata è caduta prima che potesse essere fissato un orario concreto, quindi il next step non è stato assicurato.",
+    "secured_next_step_or_disqualified": "L'agente ha chiesto chiaramente di fissare una demo e ha proposto una data, ma la chiamata è caduta prima che potesse essere concordato un orario specifico, impedendo di assicurare un next step concreto."
    },
    "spin": [
     1,
@@ -171,14 +573,14 @@
     1,
     1
    ],
-   "good": "Spotted bureaucracy as a pain point and offered a specific solution, which opened her up.",
-   "fix": "Handle the opening objections better and keep the call going until the next step is closed.",
-   "summary": "1 property in Rome, Booking.com only. Call dropped after the rep went silent. Thomas rated the call 5/5 and noted the prospect asked about the 12 months before he had mentioned them."
+   "good": "L'agente ha identificato la burocrazia come un punto dolente e ha proposto una soluzione pertinente.",
+   "fix": "Migliorare la gestione delle obiezioni iniziali e mantenere l'engagement per chiudere il next step.",
+   "summary": "The user, from Logify, contacted a property owner about their Booking.com listing. The owner was initially satisfied with Booking and reluctant to use other platforms due to time constraints. The user identified bureaucracy management as a pain point, which the owner confirmed would be beneficial to automate. The user offered a demo of Logify's service, detailing pricing (€56/month annually, €70/month monthly) for bureaucracy automation. The owner expressed interest in the demo to alleviate bureaucratic tasks. The call ended abruptly due to the user becoming unresponsive."
   },
   {
    "id": "conv_3401m5cpzss0e68rbjyrrfhxsbz6",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
-   "date": "2026-10-20T15:11:00+02:00",
+   "date": "2026-10-20T13:11:08+00:00",
    "dur": 600,
    "score": 65,
    "outcome": "soft_next_step",
@@ -186,23 +588,28 @@
    "difficulty": "hard",
    "objections": 6,
    "talkHigh": true,
-   "lang": "Italian",
+   "lang": "IT",
    "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 0,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 0,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
-    "value_before_price": 1,
     "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 0,
+    "compliance_hook_used_correctly": 1
    },
    "why": {
-    "personalized_listing_opening": "Generic: \"calling about your property that's active on Booking\". Nothing about the listing itself.",
-    "secured_next_step_or_disqualified": "Offered a 30-minute Google Meet demo but never proposed a time.",
-    "value_before_price": "Price was never discussed in detail."
+    "objection_handled_arc": "L'host ha sollevato l'obiezione sulla complessità di Chekin. Il rep ha riconosciuto (\"Certo, certo, la capisco\"), ha riformulato chiarendo l'integrazione con Lodgify per il primo anno, ma non ha chiuso con una domanda chiara.",
+    "secured_demo_or_disqualified": "Il rep ha proposto una demo di 30 minuti su Google Meet per mostrare la piattaforma e rispondere alle domande, ma non ha proposto un orario specifico né ha tentato di fissare l'appuntamento in modo concreto.",
+    "personalized_opening": "L'apertura è stata generica (\"Buongiorno, sono Thomas, la chiamo da Logify... La contatto in merito al suo alloggio che risulta attivo su Booking\"), senza riferimenti specifici alla proprietà o alle recensioni.",
+    "secured_next_step_or_disqualified": "Il rep ha proposto una demo ma non ha tentato di fissare un appuntamento concreto, lasciando la conversazione aperta senza un chiaro next step.",
+    "personalized_listing_opening": "L'apertura è stata generica, menzionando solo che l'alloggio è attivo su Booking, senza riferimenti specifici alla proprietà, recensioni o osservazioni sul calendario."
    },
    "spin": [
     1,
@@ -216,14 +623,14 @@
     1,
     1
    ],
-   "good": "Found bureaucracy as the host's pain and tied Lodgify to it.",
-   "fix": "Dig into the implications of the problem before presenting the solution.",
-   "summary": "2 apartments, Booking.com only. Call hit the 10-minute maximum."
+   "good": "Il rep ha identificato e validato il problema della burocrazia come un punto dolente per il prospect.",
+   "fix": "Approfondire le implicazioni dei problemi del prospect prima di presentare la soluzione.",
+   "summary": "Logify contacted a property owner about their vacation rental, offering a management system to expand channels, enable direct bookings, and automate processes. The owner was initially satisfied with Booking.com and hesitant about added complexity, but identified bureaucracy (Alloggiati Web, ISTAT, e-invoicing) as a major pain point.\n\nLogify proposed automating these tasks, along with centralized channel management. The owner expressed concerns about managing a separate Check-in service for bureaucracy after a free trial. Logify clarified that management would remain integrated via Logify, with a potential separate cost for Check-in post-trial. A demo was offered."
   },
   {
    "id": "conv_5401m4tg15c6fjytxshce87szb6c",
    "user_id": "30df3d4c62259bc7b36abbc6755a322b",
-   "date": "2026-10-13T13:23:00+02:00",
+   "date": "2026-10-13T11:23:13+00:00",
    "dur": 449,
    "score": 30,
    "outcome": "no_next_step",
@@ -231,25 +638,31 @@
    "difficulty": "hard",
    "objections": 4,
    "talkHigh": false,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 0,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 0,
+    "objection_handled_arc": 0,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 0,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 0,
     "objection_handled_laer": 0,
-    "value_before_price": 1,
     "secured_next_step_or_disqualified": 0,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 0,
+    "compliance_hook_used_correctly": 1
    },
    "why": {
-    "personalized_listing_opening": "Generic opening. The host had to ask who was calling.",
-    "discovery_before_pitch": "Gave a generic pitch (occupancy, revenue, guest experience) before finding his pain.",
-    "objection_handled_laer": "On \"more platforms means more headaches\" she acknowledged, then went to features without exploring.",
-    "secured_next_step_or_disqualified": "He refused the demo: \"If you can't even tell me how it works or what Chekin is, I'm not going to spend half an hour on a call.\"",
-    "value_before_price": "Price never came up."
+    "discovery_and_scenario": "The agent did ask about current booking channels (Booking.com, Airbnb, VRBO) and how the host handles rates. The host explicitly mentioned the pain of \"Italian bureaucratic registrations and receipts for every single arrival.\" The agent identified the host was primarily Booking.com only, but the discovery was not deep enough before pitching generic benefits.",
+    "objection_handled_arc": "The host raised the objection about managing more platforms being \"more headaches\" and \"more messages, more calendars to synchronize, and more paperwork.\" The agent acknowledged this (\"I mean, that's exactly where Lodgify comes in, right? We do everything so you can manage everything from one place.\") but then pivoted to asking about the host's job, not fully reframing the value or closing on the objection.",
+    "secured_demo_or_disqualified": "The agent asked for a 30-minute demo with a specialist to explain the Chekin partnership and save time. However, the call ended with the prospect's strong resistance to the demo, and the agent did not secure a concrete next step.",
+    "personalized_opening": "The agent's opening was generic (\"Hello..?\") and did not address the host personally or reference anything specific about their property. The host had to ask \"Is that Marco?\".",
+    "discovery_before_pitch": "The agent asked about occupancy and rates, but then gave a generic pitch (\"increase occupancy, increase revenue, and improve their gust- customer experience\") before truly understanding the host's specific pains. The host explicitly asked for the problem Lodgify solves.",
+    "objection_handled_laer": "The host raised the objection about managing more platforms being \"more headaches.\" The agent listened, acknowledged it, but did not explore it with clarifying questions before pivoting. The response was a feature mention rather than a value-driven reframe.",
+    "secured_next_step_or_disqualified": "The agent asked for a 30-minute demo with a specialist, but the prospect resisted, stating, \"if you can't even tell me how it works or what Chekin is, I'm not going to spend half an hour on a call.\" No concrete next step was secured.",
+    "personalized_listing_opening": "The agent did not open with a personalized hook related to the prospect's listing. The opening was generic, and the agent had to be identified by the prospect."
    },
    "spin": [
     1,
@@ -263,14 +676,14 @@
     0,
     0
    ],
-   "good": "Acknowledged his resistance and validated his success with Booking.com.",
-   "fix": "Be ready to explain what Chekin does. He refused the demo because basic questions went unanswered.",
-   "summary": "Marco · B&B, 4 rooms, Booking.com, high occupancy"
+   "good": "The rep acknowledged the prospect's initial resistance and validated their current success with Booking.com.",
+   "fix": "Be prepared to explain the core functionality and benefits of proposed solutions, especially when introducing new integrations like Chekin.",
+   "summary": "Melanie from Lodgify cold-called Marco, a B&B owner, who was initially busy and content with his Booking.com setup, achieving high occupancy. Marco expressed disinterest in new software or managing multiple platforms due to increased workload.\n\nAfter probing, Marco revealed his main pain point was the time-consuming Italian bureaucratic registrations and receipts. Melanie introduced \"Checkin\" as a partner solution for these administrative tasks, offering a free subscription.\n\nMarco remained skeptical, questioning how \"Checkin\" integrates with local authorities (Questura, comune) and handles tourist taxes. Melanie proposed a 30-minute call with a specialist, but Marco was unwilling to commit without more concrete details on the solution's functionality."
   },
   {
    "id": "conv_4501m4tf7cjyfb6vga5e2svh1wjy",
    "user_id": "30df3d4c62259bc7b36abbc6755a322b",
-   "date": "2026-10-13T13:09:00+02:00",
+   "date": "2026-10-13T11:09:08+00:00",
    "dur": 467,
    "score": 75,
    "outcome": "booked_demo",
@@ -278,23 +691,24 @@
    "difficulty": "hard",
    "objections": 7,
    "talkHigh": false,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
-   "why": {
-    "personalized_listing_opening": "Opened on his Airbnb listing and the calendar not being fully booked.",
-    "uncovered_compliance_admin": "Asked \"Alloggiati Web? Tourist tax and invoices?\" before pitching Chekin."
-   },
+   "why": {},
    "spin": [
     1,
     1,
@@ -307,14 +721,14 @@
     1,
     1
    ],
-   "good": "Addressed his Italian compliance concern head-on, which was the turning point for the demo.",
-   "fix": "Ask sharper problem questions earlier, instead of leading with generic time savings.",
-   "summary": "Marco · Airbnb + Booking.com, 70–80% occupancy, manual calendars"
+   "good": "The rep effectively addressed the prospect's specific concern about Italian compliance, leading to a breakthrough.",
+   "fix": "Ask more specific problem questions to uncover deeper pain points earlier in the conversation.",
+   "summary": "The conversation begins with Melanie from Lodgify cold-calling Marco, who initially expresses disinterest and states he's busy. Melanie pitches Lodgify by noting Marco's Airbnb property isn't fully booked and inquiring about his current booking management. Marco explains he primarily uses Booking.com, is satisfied with his 70-80% occupancy, and manually manages calendars, expressing skepticism about new software and additional costs.\n\nMelanie probes his pain points, identifying time spent on check-ins, cleaning, and guest messages. She proposes Lodgify can save him 8 hours weekly. Marco remains hesitant, citing concerns about Italian bureaucracy (Alloggiati Web, tourist tax, invoices) which he believes generic software doesn't address. Melanie then highlights Lodgify's partnership with Chekin in Italy, confirming it handles these specific compliance requirements, including police submissions, tourist tax, and invoices, all integrated and included in Lodgify's cost.\n\nIntrigued by this, Marco agrees to a 20-minute demo for the following afternoon at 3:30 PM, specifically requesting the specialist focus on Italian compliance, Booking.com integration, and clear pricing. A demo is successfully scheduled."
   },
   {
    "id": "conv_9201m46a60veebqb1k2zx2jhhm53",
    "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T17:16:00+02:00",
+   "date": "2026-10-05T15:16:12+00:00",
    "dur": 383,
    "score": 75,
    "outcome": "booked_demo",
@@ -322,22 +736,24 @@
    "difficulty": "medium",
    "objections": 5,
    "talkHigh": true,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "uncovered_compliance_admin": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
    },
-   "why": {
-    "uncovered_compliance_admin": "Asked how she handles e-invoicing and guest registration before pitching."
-   },
+   "why": {},
    "spin": [
     1,
     1,
@@ -350,14 +766,14 @@
     0,
     1
    ],
-   "good": "Tied the solution to her 3–4 hours a week on compliance, which led to the demo.",
-   "fix": "Ask about every booking channel she uses, not only Booking.com.",
-   "summary": "Maria · 3 apartments in Bologna, Booking.com only. Call ended with a connection timeout after the demo was agreed."
+   "good": "The rep effectively tied the solution to the prospect's stated pain of spending 3-4 hours weekly on compliance.",
+   "fix": "Ask about all booking channels the prospect uses to understand their current setup.",
+   "summary": "The conversation is a sales call from Lodgify to Maria, a property manager with three apartments in Bologna. Initially resistant and satisfied with managing listings directly on Booking.com, Maria expresses concerns about time spent on manual Italian compliance (Alloggiati Web, e-invoicing, tourist tax), which takes 3-4 hours weekly.\n\nThe Lodgify representative pitches their software, highlighting automation of compliance, multi-platform management, and direct booking capabilities to save commission, offering 12 months of free integration for Italian compliance. Maria remains skeptical about being locked into an expensive annual contract and not being tech-savvy. However, she agrees to a 15-minute demo for the following day at 3 PM to see how the compliance automation works, providing her email for the invite."
   },
   {
    "id": "conv_2101m45wdckrfeyt0a1f8bs763zv",
    "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T13:15:00+02:00",
+   "date": "2026-10-05T11:15:33+00:00",
    "dur": 555,
    "score": 75,
    "outcome": "booked_demo",
@@ -365,22 +781,22 @@
    "difficulty": "medium",
    "objections": 3,
    "talkHigh": true,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 1,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "compliance_hook_used_correctly": 1,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 1
    },
-   "why": {
-    "personalized_listing_opening": "Complimented the property and reviews and pointed out the calendar wasn't fully booked.",
-    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
-   },
+   "why": {},
    "spin": [
     1,
     1,
@@ -393,14 +809,14 @@
     0,
     1
    ],
-   "good": "Reframed value around commission and time savings, which got past the price objection.",
-   "fix": "Have a ballpark price, or offer to email it, when the prospect asks before agreeing to a demo.",
-   "summary": "2 units, Booking.com + Airbnb, manual calendar sync"
+   "good": "The rep effectively reframed the value proposition by highlighting potential savings on commissions and time.",
+   "fix": "Be prepared to offer a ballpark price range or email information when a prospect explicitly requests it before committing to a demo.",
+   "summary": "David from Logify contacted Jerry, a property owner, regarding his manual management of two rental units on Airbnb and Booking.com. Jerry detailed challenges with calendar syncing, message handling, and cleaner coordination, spending 3-4 hours weekly.\n\nDavid presented Logify's solution for centralized management, automated calendar sync, cleaner scheduling, and direct bookings, emphasizing increased revenue and time savings. Initially skeptical about cost for his small operation, Jerry was convinced by the potential for commission savings and reduced stress.\n\nThey scheduled a 15-minute demo call for tomorrow at 3 PM, with an invite sent to jerryrentals@gmail.com."
   },
   {
    "id": "conv_3301m45vs0q5e2wvn11ns7pjbv35",
    "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T13:04:00+02:00",
+   "date": "2026-10-05T11:04:26+00:00",
    "dur": 400,
    "score": 75,
    "outcome": "booked_demo",
@@ -408,21 +824,26 @@
    "difficulty": "hard",
    "objections": 4,
    "talkHigh": true,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 0,
-    "discovery_before_pitch": 1,
-    "asked_channel_qualifier": 1,
-    "compliance_hook_used_correctly": 0,
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
     "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 0,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
-    "maintained_control_and_rapport": 1
+    "personalized_listing_opening": 0,
+    "compliance_hook_used_correctly": 0
    },
    "why": {
-    "personalized_listing_opening": "General hook for Italian hosts on Booking.com. Nothing about Giorgio's own property or reviews.",
-    "compliance_hook_used_correctly": "Mentioned VAT registration but never used Alloggiati, tourist tax or e-invoicing as the hook."
+    "personalized_opening": "The rep's opening was somewhat generic, mentioning 'your properties that you have listed on Booking.com' and 'VAT registered in Italy' but did not reference anything specific about Giorgio's actual property or reviews.",
+    "personalized_listing_opening": "The rep's opening was not personalized to Giorgio's specific listing. It was a general hook for Italian hosts on Booking.com, not referencing property name, city, reviews, or specific calendar gaps.",
+    "compliance_hook_used_correctly": "The rep mentioned that the host is 'VAT registered in Italy' in the opening, which hints at compliance, but did not explicitly use the Italian compliance angle (Alloggiati, tourist tax, e-invoicing) as a relevance hook or position Lodgify/Chekin as a solution."
    },
    "spin": [
     1,
@@ -436,14 +857,14 @@
     0,
     1
    ],
-   "good": "Handled the cost and setup objections by showing value and free onboarding.",
+   "good": "The rep effectively handled the prospect's objections regarding cost and setup complexity by highlighting value and free onboarding.",
    "fix": "Ask more situation and problem questions before pitching the solution.",
-   "summary": "Giorgio · Booking.com + Airbnb, no channel manager"
+   "summary": "The conversation is a sales call from a Lodgify representative (David) to Giorgio, a property owner. David introduces Lodgify's property management software, emphasizing its ability to prevent double bookings through API integration, centralize management, and increase revenue by facilitating direct bookings and reducing commission fees. Initially hesitant due to concerns about cost and setup complexity, Giorgio agrees to a 15-minute demonstration call for the following day at 3 PM, after learning about free onboarding. The representative confirms the booking and requests Giorgio's email for the invitation."
   },
   {
    "id": "conv_0101m45mzegce159kzzspwhkyanp",
    "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-05T11:05:00+02:00",
+   "date": "2026-10-05T09:05:36+00:00",
    "dur": 513,
    "score": 70,
    "outcome": "booked_demo",
@@ -451,20 +872,18 @@
    "difficulty": "medium",
    "objections": 4,
    "talkHigh": true,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 0,
     "discovery_before_pitch": 0,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
     "maintained_control_and_rapport": 1,
-    "compliance_hook_used_correctly": 1
+    "personalized_listing_opening": 0
    },
    "why": {
-    "personalized_listing_opening": "Opened assuming Italy and Booking.com. The prospect corrected it straight away.",
-    "discovery_before_pitch": "Pitched the general product right after the correction, before discovery.",
-    "compliance_hook_used_correctly": "Prospect was in the UK, so compliance was not relevant."
+    "discovery_before_pitch": "The rep immediately pitched Lodgify's general purpose (\"software company that help property managers... to connect between Airbnb, Booking.com... build a website\") after the prospect corrected their location, before asking meaningful discovery questions about the prospect's specific situation (e.g., number of properties, platforms used, pain points).",
+    "personalized_listing_opening": "The rep opened with an incorrect assumption about the prospect's location (Italy) and platform usage (Booking.com), indicating a lack of personalized research or a generic script was used, which the prospect immediately corrected."
    },
    "spin": [
     1,
@@ -478,14 +897,14 @@
     1,
     1
    ],
-   "good": "Reframed the \"too much work\" objection by asking how much time manual tasks take today.",
-   "fix": "Give a ballpark price range when the prospect asks for it directly.",
-   "summary": "Maria · 2 lets in Brighton, Airbnb only"
+   "good": "The rep successfully reframed the 'too much work' objection by asking about the prospect's current time investment in manual tasks.",
+   "fix": "Provide a ballpark price range when the prospect explicitly asks for it to overcome price objections more effectively.",
+   "summary": "The conversation began with a misidentification, as the user (David from Logify) initially believed the agent (Maria) was based in Italy with Booking.com listings. Maria clarified she has two holiday lets in Brighton, UK, primarily on Airbnb. David then pitched Logify's property management software, highlighting benefits like connecting platforms, preventing double bookings, enabling direct bookings, and saving time. Maria expressed hesitation regarding the effort and cost for only two properties. After some persuasion and reassurance that the software would pay for itself and save time, Maria agreed to a 15-minute demo call with a colleague for Thursday afternoon at 3 PM, providing her email for the invite."
   },
   {
    "id": "conv_6301m3xte4bkej7st095bzs37xz4",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
-   "date": "2026-10-02T10:07:00+02:00",
+   "user_id": "6efb2890d5f6269e024d89f0baa5beb1",
+   "date": "2026-10-02T08:07:05+00:00",
    "dur": 512,
    "score": 85,
    "outcome": "booked_demo",
@@ -493,20 +912,18 @@
    "difficulty": "medium",
    "objections": 6,
    "talkHigh": false,
-   "lang": "English",
+   "lang": "EN",
    "res": {
-    "personalized_listing_opening": 0,
     "discovery_before_pitch": 0,
     "objection_handled_laer": 1,
     "value_before_price": 1,
     "secured_next_step_or_disqualified": 1,
     "maintained_control_and_rapport": 1,
-    "compliance_hook_used_correctly": 1
+    "personalized_listing_opening": 0
    },
    "why": {
-    "personalized_listing_opening": "Generic opening about Italian hosts with VAT on Booking.com. Nothing from the listing.",
-    "discovery_before_pitch": "Said the host was \"leaving money on the table\" before asking about the setup.",
-    "compliance_hook_used_correctly": "Compliance never came up, so marked as not applicable."
+    "discovery_before_pitch": "The rep made a value statement about the prospect \"struggling and leaving money on the table and only relying on one platform\" at 10:07:36 before asking any meaningful discovery questions about the prospect's actual setup.",
+    "personalized_listing_opening": "The rep's opening was generic, stating they were reaching out to people in Italy with VAT and Booking.com accounts. There was no specific mention of the prospect's actual listing, property, or reviews."
    },
    "spin": [
     1,
@@ -520,9 +937,255 @@
     1,
     1
    ],
-   "good": "Overcame the price objection by clearly showing the ROI and commission savings.",
-   "fix": "Quantify the time saved by linking it to specific things the host gets back.",
-   "summary": "Mario · 5 properties, Airbnb + Booking.com"
+   "good": "The rep successfully overcame the price objection by clearly articulating the potential ROI and commission savings.",
+   "fix": "Quantify the time-saving benefit more concretely by linking it to specific activities the prospect could gain back.",
+   "summary": "David from Logify cold-called Mario, a property owner with five units listed on Airbnb and Booking.com, to discuss his property management setup. Mario initially expressed skepticism, noting he manually syncs calendars and gets few direct bookings. David highlighted Logify's benefits: automated calendar syncing, direct booking via a website, and Google Vacation Rental integration to save 15% on commissions and increase direct bookings. After Mario raised concerns about setup time and cost, David explained the ROI and provided a starting price of €15 per property. Convinced by the potential savings and increased direct bookings, Mario agreed to a 15-minute demo call for the following day at 3 PM."
+  },
+  {
+   "id": "conv_4601m3s0ncjnftsvf2kea3dfbkex",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T11:19:42+00:00",
+   "dur": 436,
+   "score": 85,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 6,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_listing_opening": 0
+   },
+   "why": {
+    "discovery_before_pitch": "The rep immediately started pitching Lodgify's benefits and addressing common host problems after the agent's initial skepticism, without asking any specific discovery questions about the agent's current situation or pain points first.",
+    "personalized_listing_opening": "The rep's opening was generic, stating \"we've seen that you run some Airbnb\" but did not mention any specific details about the agent's actual listing, property, or reviews."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "The rep effectively handled multiple objections by listening, acknowledging, and ultimately pivoting to a high-value solution.",
+   "fix": "Explore the implications of the prospect's problems more deeply before pitching solutions.",
+   "summary": "A Lodgify representative called Marco, an Airbnb host, to discuss their property management software. Marco was initially skeptical, stating he managed his two apartments fine and was busy. The representative highlighted issues like high commissions, message overload, and cleaner management, proposing Lodgify could increase demand via other platforms, centralize management, and enable direct bookings to save 15% commission.\n\nMarco expressed concerns about complexity and setup time. The representative then emphasized the software's ability to automate cleaner schedules, which piqued Marco's interest. Despite initial reluctance to commit to a demo, Marco agreed to a 15-minute call for the following morning at 10 AM, specifically to see the cleaner automation feature, and provided his email for the calendar invite."
+  },
+  {
+   "id": "conv_1001m3s04dnme0dvwp7z1aj9nezz",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T11:10:26+00:00",
+   "dur": 310,
+   "score": 63,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 2,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_listing_opening": 0
+   },
+   "why": {
+    "discovery_before_pitch": "The rep introduced Lodgify as a property management software and explained its benefits (other platforms, website, Google Vacation Rental) before asking a meaningful discovery question about commissions.",
+    "personalized_listing_opening": "The rep's opening was generic, asking \"we've seen that you're running an Airbnb business. Am I correct?\" There was no personalized hook based on the prospect's actual listing."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "The agent effectively addressed the prospect's concerns about time and setup complexity by highlighting automation and onboarding support, leading to a booked demo.",
+   "fix": "Ask more discovery questions about the prospect's current challenges before introducing product features.",
+   "summary": "The conversation is a sales call from David of Logify to Marco (initially identified as John), an Airbnb host. Marco is initially busy and skeptical about needing property management software for his two units.\n\nDavid pitches Logify's benefits, including increased occupancy through multi-platform listings (e.g., Booking.com), direct bookings via a custom website connected to Google Vacation Rentals to save on commissions, and automation to manage guest messages and cleaning schedules. He claims a potential 30% revenue increase.\n\nMarco expresses concerns about setup time and managing additional channels. David reassures him about an onboarding team and automation features. Marco agrees to a 15-minute demo with a sales specialist, scheduled for tomorrow afternoon at 4 PM. Marco corrects his email address for the invitation."
+  },
+  {
+   "id": "conv_1401m3rypb5cf1h8y0hvztw3s0sd",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T10:45:16+00:00",
+   "dur": 113,
+   "score": 5,
+   "outcome": "lost",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 7,
+   "talkHigh": false,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 0,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_listing_opening": 0
+   },
+   "why": {
+    "objection_handled_laer": "The prospect stated they were happy and didn't want complexity. The rep acknowledged but immediately pivoted to Airbnb commissions without exploring the prospect's current setup or happiness, failing to LAER.",
+    "secured_next_step_or_disqualified": "The call ended abruptly with the prospect's frustration, and no next step was secured, nor was the prospect disqualified.",
+    "maintained_control_and_rapport": "The rep struggled to maintain control, was cut off multiple times, and failed to establish or maintain rapport, leading to the prospect's increasing frustration and the call's abrupt end.",
+    "personalized_listing_opening": "The rep's opening was generic, mentioning 'your Airbnb' but providing no specific details or observations about the prospect's actual listing."
+   },
+   "spin": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "good": "",
+   "fix": "Acknowledge the prospect's time constraints and resistance before proceeding with the call.",
+   "summary": "The conversation is a cold call from a Logify salesperson to Pietro, an Airbnb host. Pietro is initially guarded and becomes increasingly impatient and annoyed throughout the call. He expresses satisfaction with his current Airbnb setup, is uncomfortable sharing details about his listings, and repeatedly states he doesn't have time for a sales pitch. The call ends abruptly with Pietro's frustration over the salesperson's indirect approach."
+  },
+  {
+   "id": "conv_0401m3ryg3r9ehk86n20esg2qzqa",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T10:41:52+00:00",
+   "dur": 181,
+   "score": 10,
+   "outcome": "lost",
+   "persona": "incumbent_switcher",
+   "difficulty": "hard",
+   "objections": 14,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 0,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_listing_opening": 0
+   },
+   "why": {
+    "discovery_before_pitch": "The agent immediately launched into a pitch about 'leaving money on the table' and increasing revenue by 30% before asking any meaningful discovery questions about the prospect's specific situation or needs. The first question came after the prospect expressed significant skepticism.",
+    "objection_handled_laer": "The prospect raised multiple objections, including how the agent got their number and occupancy data, and demanded specific value for their property. The agent failed to adequately address the occupancy data concern and offered a generic 'AI for pictures' suggestion that was immediately dismissed, leading to the call's abrupt end.",
+    "secured_next_step_or_disqualified": "The call ended abruptly with the prospect hanging up, and no attempt was made by the agent to secure a next step or disqualify the prospect.",
+    "maintained_control_and_rapport": "The agent lost control of the conversation almost immediately. The prospect was impatient, skeptical, and dictated the terms of the call, eventually hanging up. The agent struggled to maintain rapport and failed to steer the conversation effectively.",
+    "personalized_listing_opening": "The agent's opening was generic, stating they 'run an Airbnb' and 'leaving money on the table' based on 'occupancy rate'. There was no specific mention of the prospect's actual listing, property name, city, or any unique observation."
+   },
+   "spin": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "good": "The rep did not do anything particularly well in this call.",
+   "fix": "Address initial skepticism and ask qualifying questions before pitching any solution.",
+   "summary": "The conversation was a cold call from a Logify sales representative to an Airbnb host. The representative claimed the host was \"leaving money on the table\" and offered a software solution to increase revenue. The host was immediately skeptical, questioning how their data was obtained and demanding specific information about their property. The representative failed to provide accurate, specific details, leading the host to dismiss the claims as generic and ultimately end the call due to perceived misrepresentation and lack of value."
+  },
+  {
+   "id": "conv_7301m3ry4wj3ff3vs69h8ywx2a25",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T10:35:44+00:00",
+   "dur": 200,
+   "score": 30,
+   "outcome": "no_next_step",
+   "persona": "single_beginner",
+   "difficulty": "hard",
+   "objections": 5,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 0,
+    "objection_handled_laer": 0,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 0
+   },
+   "why": {
+    "discovery_before_pitch": "The rep immediately pitched Lodgify as a property management software after the initial greeting, before asking any meaningful discovery questions about the prospect's current situation or pain points.",
+    "objection_handled_laer": "The rep listened and acknowledged the prospect's objections about managing fine and not having time. They attempted to explore the commission pain point but did not explore the 'no time' or 'compliance' objections, instead pivoting to a demo pitch.",
+    "secured_next_step_or_disqualified": "The rep attempted to secure a next step (a 15-minute call/demo) multiple times but failed to secure it, and the call ended with the prospect refusing to book anything and asking for an email instead.",
+    "maintained_control_and_rapport": "The rep maintained a polite tone but struggled to control the conversation, repeatedly being dismissed by the prospect who eventually ended the call without agreeing to a next step.",
+    "compliance_hook_used_correctly": "The prospect explicitly mentioned compliance as a potential interest ('unless there's something specific about compliance you can fix instantly'), but the rep did not pick up on this cue or address it."
+   },
+   "spin": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "The rep consistently acknowledged the prospect's statements and objections.",
+   "fix": "Improve discovery by asking more open-ended questions about the prospect's current situation and challenges.",
+   "summary": "A sales representative from Logify cold-called an Airbnb host, John, to pitch property management software. John, initially guarded and skeptical, stated he only manages one property and is not looking for new software, questioning how the representative obtained his number. Despite the representative's attempts to highlight potential revenue increases and commission savings, John remained uninterested, citing a lack of time and dismissing the claims as sales exaggeration. John repeatedly refused to book a meeting, insisting on receiving an email with details instead, and firmly ended the call."
+  },
+  {
+   "id": "conv_7101m3ry3ryyfgbsrf7n9djanbkj",
+   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "date": "2026-09-30T10:35:08+00:00",
+   "dur": 27,
+   "score": 0,
+   "outcome": "lost",
+   "persona": "",
+   "difficulty": "easy",
+   "objections": 0,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_before_pitch": 0,
+    "secured_next_step_or_disqualified": 0,
+    "maintained_control_and_rapport": 0,
+    "personalized_listing_opening": 0
+   },
+   "why": {
+    "discovery_before_pitch": "The agent (rep) did not ask any discovery questions. Instead, the agent acted as the prospect, asking \"who are you and how did you get my number?\".",
+    "secured_next_step_or_disqualified": "The conversation ended with the agent (rep) acting as a confused prospect, asking who the caller was, rather than securing a next step or disqualifying.",
+    "maintained_control_and_rapport": "The agent (rep) lost control of the conversation by acting as the prospect, asking \"who are you and how did you get my number?\" and stating they were busy.",
+    "personalized_listing_opening": "The agent (rep) did not open with any personalized hook. The agent's first substantive line was asking who the caller was."
+   },
+   "spin": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "obj": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "good": "Nothing was done well.",
+   "fix": "Improve initial rapport building and ensure communication in the prospect's language.",
+   "summary": "The conversation began with the agent's initial greeting, followed by the user repeatedly asking if the agent could hear them due to a perceived lack of response. The agent eventually replied in Italian, asking for the user's identity and how they obtained the number, stating they were busy and requesting the user to be direct."
   }
  ]
 }
