@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
       - name: Fetch calls from ElevenLabs
         env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.683864212fa25b70ba1198afda72ffde5a22e9d4d487b1fc7c612c9ebf14d070 }}
         run: python scripts/fetch_calls.py
       - name: Commit and redeploy if anything changed
         env:
