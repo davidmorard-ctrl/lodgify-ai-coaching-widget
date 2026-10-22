@@ -2,8 +2,10 @@ name: Update roleplay results
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # Runs every 15 minutes
-  workflow_dispatch:          # Allows manual trigger via Actions tab
+    # Runs at 8:00 AM and 2:00 PM Madrid / Central European Time
+    # (06:00 UTC and 12:00 UTC)
+    - cron: "0 6,12 * * *"
+  workflow_dispatch:       # Allows manual trigger via Actions tab anytime
 
 permissions:
   contents: write
