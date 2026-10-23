@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T10:19:49.161409+00:00",
+ "updated": "2026-10-23T10:37:55.762833+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
   {
@@ -995,7 +995,7 @@
   },
   {
    "id": "conv_6301m3xte4bkej7st095bzs37xz4",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "user_id": "6efb2890d5f6269e024d89f0baa5beb1",
    "date": "2026-10-02T08:07:05+00:00",
    "dur": 512,
    "score": 85,
