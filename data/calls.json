@@ -1,7 +1,97 @@
 {
- "updated": "2026-10-26T12:16:06.508013+00:00",
+ "updated": "2026-10-26T17:47:25.150815+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_8301m5wja8jtfabr2ybatwq7nfg4",
+   "user_id": "e338cd26e9bf66885f97aaa3889c9cb5",
+   "date": "2026-10-26T16:57:19+00:00",
+   "dur": 844,
+   "score": 67,
+   "outcome": "booked_demo",
+   "persona": "analytical_grower",
+   "difficulty": "hard",
+   "objections": 5,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "The rep effectively addressed the prospect's concerns about commitment and time for the demo, leading to its booking.",
+   "fix": "Deepen the implication of the uncovered pain points before pitching solutions.",
+   "summary": "The user, Aksam from Latchify, contacted Isabel, a property owner in Florence, to discuss vacation rental software. Isabel, initially hesitant and busy, stated she primarily uses Booking.com with high occupancy and handles direct bookings manually, which involves significant administrative work for Italian guest registration and taxes.\n\nAksam introduced Latchify as a solution to automate guest registration via Checkin integration and facilitate direct bookings to avoid platform fees. Isabel expressed concerns about legal responsibility and costs. Aksam clarified that Checkin is included in the Latchify subscription and there are no hidden fees.\n\nThe conversation concluded with Isabel agreeing to a 20-minute, no-pressure demo with a Latchify specialist for Thursday at 10 AM, with an email confirmation sent."
+  },
+  {
+   "id": "conv_3801m5w8epmvfqr91ja0ykbrasms",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-26T14:04:58+00:00",
+   "dur": 720,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 9,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha dimostrato persistenza nel proporre la demo e ha chiarito efficacemente i dubbi del prospect, portando alla prenotazione.",
+   "fix": "Riconoscere e affrontare le obiezioni iniziali del prospect in modo più diretto e empatico.",
+   "summary": "The conversation began with a cold call from Logify, a property management software, to a vacation rental owner. The owner was initially impatient and satisfied with their current setup (Booking.com). The Logify representative persisted, highlighting benefits like multi-platform listing, direct bookings, and bureaucracy automation, particularly guest registration.\n\nThe owner expressed skepticism regarding automation, hidden costs, and data trust with partners. The representative addressed these concerns, clarifying pricing, the role of partners (Chekin), and emphasizing the time-saving potential. Despite initial reluctance, the owner agreed to a no-obligation demo for the following day at 12:00 PM, providing their email address. The call concluded with the demo successfully scheduled."
+  },
   {
    "id": "conv_5601m5vx0fx7e0fs909p7qfmhte5",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
@@ -1180,7 +1270,7 @@
   },
   {
    "id": "conv_6301m3xte4bkej7st095bzs37xz4",
-   "user_id": "user_3701kshw51jbf0v85gnc3x1c73k6",
+   "user_id": "6efb2890d5f6269e024d89f0baa5beb1",
    "date": "2026-10-02T08:07:05+00:00",
    "dur": 512,
    "score": 85,
