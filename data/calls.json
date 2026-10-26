@@ -1,7 +1,97 @@
 {
- "updated": "2026-10-25T15:10:10.290982+00:00",
+ "updated": "2026-10-26T11:44:29.094730+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_5601m5vx0fx7e0fs909p7qfmhte5",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-26T10:44:58+00:00",
+   "dur": 988,
+   "score": 60,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "good": "The rep effectively tied the value of automation to the prospect's stated time-consuming bureaucracy.",
+   "fix": "Address price and commitment objections directly rather than deferring them to the demo specialist.",
+   "summary": "The user, representing Lodgify, contacted a property owner in Rome to discuss their Booking.com listing. The owner confirmed they primarily use Booking.com and some Airbnb, managing guest registration (Alloggiati Web, Tassa di Soggiorno) manually, which takes about an hour daily.\n\nThe user introduced Lodgify as a property management system that automates these tasks, provides a direct booking website, and integrates multiple platforms. After discussing the cost (56 euros/month for an annual plan) and addressing the owner's questions about hidden fees and annual commitment, the owner agreed to schedule a 15-minute demo for the following day at 9:00 a.m. and provided their email address."
+  },
+  {
+   "id": "conv_3701m5vmezteecx9nzydy80wsvh3",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-26T08:15:36+00:00",
+   "dur": 567,
+   "score": 70,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 6,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rappresentante ha gestito con successo la prenotazione di una demo, offrendo flessibilità e una prova gratuita.",
+   "fix": "Quantificare il dolore e le implicazioni dei problemi del prospect prima di proporre la soluzione.",
+   "summary": "The user, representing Logify, contacted the agent about their Agriturismo on Booking.com, suggesting expanding to other platforms to increase bookings and reduce commissions. The agent expressed satisfaction with Booking.com and concerns about the increased workload, particularly administrative tasks like guest registration and taxes. The user then introduced Logify's partnership with Check-in to automate these bureaucratic processes, offering a free trial and a demo. After discussing pricing and flexible subscription options, the agent agreed to a demo call for the following day at 4 PM."
+  },
   {
    "id": "conv_3601m5mead20eyqsx2qc5thaxbkd",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
