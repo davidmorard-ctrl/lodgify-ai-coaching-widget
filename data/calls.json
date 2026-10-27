@@ -1,7 +1,99 @@
 {
- "updated": "2026-10-26T17:47:25.150815+00:00",
+ "updated": "2026-10-27T11:11:38.958636+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_8001m5ye24eff1z840z7jga280fd",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-27T10:21:27+00:00",
+   "dur": 490,
+   "score": 70,
+   "outcome": "booked_demo",
+   "persona": "incumbent_switcher",
+   "difficulty": "hard",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "EN",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 0
+   },
+   "why": {
+    "compliance_hook_used_correctly": "The rep uncovered how the host handles compliance admin (Alloggiati Web, tourist tax, e-invoices) but did not explicitly use this as a hook to position Lodgify or the Chekin bundle as a solution for these specific compliance tasks. The compliance aspect was discovered but not leveraged as a value proposition."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "good": "The rep effectively handled the price objection by reframing the cost as an investment tied to direct bookings.",
+   "fix": "Ask more probing questions to uncover specific pains and implications before pitching the solution.",
+   "summary": "The user, Sibel from Logify, contacted a property manager about their Airbnb listing in Rome. The agent was initially skeptical and dismissive, stating satisfaction with Booking.com and Airbnb, and managing tasks like bureaucracy and pricing manually. Sibel highlighted potential lost opportunities due to manual processes and limited platform presence. After addressing the agent's concerns about cost (approx. €50-60/month, recouped with one direct booking) and contract terms (monthly option, free trial), the agent agreed to a demo call for tomorrow morning at 10 AM. Sibel confirmed sending a meeting invite."
+  },
+  {
+   "id": "conv_1701m5y712msehpva426wmp3pp44",
+   "user_id": "340c7bbc49d529762267b2a829153526",
+   "date": "2026-10-27T08:18:32+00:00",
+   "dur": 533,
+   "score": 75,
+   "outcome": "booked_demo",
+   "persona": "analytical_grower",
+   "difficulty": "hard",
+   "objections": 7,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rappresentante ha gestito con successo le obiezioni dell'agente, portando alla prenotazione di una demo.",
+   "fix": "Riassumere la situazione del prospect prima di presentare la soluzione.",
+   "summary": "The conversation is a sales call from Logify, a vacation rental management software provider, to a property manager in Rome. The property manager initially expresses satisfaction with their current setup (mainly Booking.com, 80-85% occupancy) and skepticism about new tools.\n\nLogify identifies pain points such as manual price management and time-consuming bureaucracy (Alloggiati Web, city tax, e-invoicing). They propose solutions including automation of these tasks, a direct booking website to save on commissions, automated pricing, and integration with multiple platforms.\n\nDespite initial reservations about software promises, legal compliance, and cost, the property manager agrees to a 15-20 minute demonstration call for the following afternoon at 4:30 PM, specifically requesting focus on the bureaucratic and fiscal aspects, particularly Alloggiati Web. A meeting link will be sent via email."
+  },
   {
    "id": "conv_8301m5wja8jtfabr2ybatwq7nfg4",
    "user_id": "e338cd26e9bf66885f97aaa3889c9cb5",
