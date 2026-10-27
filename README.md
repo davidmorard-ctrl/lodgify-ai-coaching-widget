@@ -17,4 +17,4 @@ Calls are matched to reps by ElevenLabs user ID. A new rep shows as "New rep" un
 "883e41df7c4b57ede2c305647128f47a": { "name": "Thomas", "role": "SDR" }
 ```
 
-The user ID is on each conversation in ElevenLabs under Metadata. Calls under 20 seconds or without a score are skipped.
+The user ID is on each conversation in ElevenLabs under Metadata. One person can have several user IDs (for example when calling from another browser): add each ID with the same name and the page merges them into one rep. Edit `data/reps.json`, never `data/calls.json`, which is rebuilt from ElevenLabs on every refresh. Calls under 20 seconds or without a score are skipped.

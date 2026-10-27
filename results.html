@@ -459,7 +459,7 @@ async function load(){
     const [cr,rr]=await Promise.all([fetch('data/calls.json',{cache:'no-store'}),fetch('data/reps.json',{cache:'no-store'})]);
     const data=await cr.json(),reps=await rr.json();
     const seen={};
-    CALLS=data.calls.map(c=>{const r=reps[c.user_id];const sid=c.user_id||'unknown';
+    CALLS=data.calls.map(c=>{const r=reps[c.user_id];const sid=r&&r.name?'rep:'+r.name:(c.user_id||'unknown');
       if(!seen[sid]){seen[sid]=1;SDRS.push({id:sid,name:r?r.name:'New rep',sub:r?r.role:('ElevenLabs user '+String(sid).slice(0,8))})}
       return {...c,sdr:sid,date:new Date(c.date),res:c.res||{},why:c.why||{},spin:c.spin||[],obj:c.obj||[]}}).sort((a,b)=>b.date-a.date);
     const up=new Date(data.updated);
