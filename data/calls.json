@@ -1,7 +1,54 @@
 {
- "updated": "2026-10-27T11:11:38.958636+00:00",
+ "updated": "2026-10-27T14:07:15.901297+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_7201m5ytf3fwe83bw1s7tgjw74ff",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-27T13:58:15+00:00",
+   "dur": 445,
+   "score": 55,
+   "outcome": "no_next_step",
+   "persona": "lifestyle_host",
+   "difficulty": "medium",
+   "objections": 4,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "secured_demo_or_disqualified": "La chiamata si è interrotta bruscamente prima che l'agente potesse chiedere un demo o un prossimo passo concreto. L'utente non ha risposto a due prompt consecutivi.",
+    "secured_next_step_or_disqualified": "La chiamata si è interrotta bruscamente prima che l'agente potesse chiedere un prossimo passo concreto o qualificare l'utente fuori. L'utente non ha risposto a due prompt consecutivi."
+   },
+   "spin": [
+    1,
+    1,
+    1,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "L'agente ha identificato il problema principale del prospect legato alla burocrazia.",
+   "fix": "Approfondire le implicazioni del problema burocratico prima del pitch.",
+   "summary": "The conversation began with a Logify representative contacting a property owner about their Booking.com listing in Rome. The owner, managing three apartments, expressed satisfaction with current bookings via Booking.com and Airbnb, and reluctance to seek new software due to potential increased workload.\n\nHowever, the owner highlighted significant challenges with direct bookings, citing the bureaucratic burden of managing electronic invoices, city tax, and guest registration (Alloggiati Web). The Logify representative then proposed their platform as a solution, offering a custom website for commission-free direct bookings and automated tools to simplify bureaucratic tasks. The call ended abruptly due to user unresponsiveness."
+  },
   {
    "id": "conv_8001m5ye24eff1z840z7jga280fd",
    "user_id": "340c7bbc49d529762267b2a829153526",
