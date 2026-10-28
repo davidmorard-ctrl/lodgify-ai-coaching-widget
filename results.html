@@ -297,7 +297,7 @@ footer{max-width:1040px;margin:48px auto 0;display:flex;justify-content:space-be
   <div class="head">
     <span class="eyebrow">Leaderboard</span>
     <h2>Who is having <em>the best conversations.</em></h2>
-    <p class="sub">Ranked by the agent's 0–100 score, averaged over each rep's last five calls. Click a rep to see their coaching.</p>
+    <p class="sub">SDRs are ranked by the agent's 0–100 score, averaged over their last five calls. Managers and specialists testing the agent are listed below and left out of the ranking and team averages. Click a name to see their coaching.</p>
   </div>
   <div class="card" style="padding:16px 14px">
     <div class="scroll">
@@ -460,7 +460,7 @@ async function load(){
     const data=await cr.json(),reps=await rr.json();
     const seen={};
     CALLS=data.calls.map(c=>{const r=reps[c.user_id];const sid=r&&r.name?'rep:'+r.name:(c.user_id||'unknown');
-      if(!seen[sid]){seen[sid]=1;SDRS.push({id:sid,name:r?r.name:'New rep',sub:r?r.role:('ElevenLabs user '+String(sid).slice(0,8))})}
+      if(!seen[sid]){seen[sid]=1;SDRS.push({id:sid,name:r&&r.name?r.name:'New rep',sub:r&&r.name?r.role:('ElevenLabs user '+String(sid).slice(0,8)),isSdr:!(r&&r.name)||/\bSDR\b/i.test(r.role||'')})}
       return {...c,sdr:sid,date:new Date(c.date),res:c.res||{},why:c.why||{},spin:c.spin||[],obj:c.obj||[]}}).sort((a,b)=>b.date-a.date);
     const up=new Date(data.updated);
     document.getElementById('updated').textContent='Updated '+up.toLocaleDateString('en-GB',{day:'numeric',month:'short'})+' '+up.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
@@ -473,14 +473,15 @@ STATS=SDRS.map(s=>{
   const sk={};SKILLS.forEach(k=>sk[k.k]=skillAvg(ss,k));
   const best=SKILLS.slice().sort((a,b)=>sk[b.k]-sk[a.k])[0];
   return {s,ss,score:avg(last5.map(x=>x.score)),delta:avg(last3.map(x=>x.score))-avg(first3.map(x=>x.score)),demo:avg(ss.map(x=>x.outcome==='booked_demo'?1:0)),sk,best};
-}).sort((a,b)=>b.score-a.score);
-TEAM={};SKILLS.forEach(k=>TEAM[k.k]=skillAvg(CALLS,k));
+}).sort((a,b)=>(b.s.isSdr-a.s.isSdr)||(b.score-a.score));
+const SDR_IDS=new Set(SDRS.filter(s=>s.isSdr).map(s=>s.id));const SC=CALLS.filter(c=>SDR_IDS.has(c.sdr));const NSDR=SDR_IDS.size;
+TEAM={};SKILLS.forEach(k=>TEAM[k.k]=skillAvg(SC,k));
 
 document.getElementById('kpis').innerHTML=[
-  [CALLS.length,'Calls scored'],
-  [SDRS.length,'Reps practising'],
-  [Math.round(avg(CALLS.map(x=>x.score))),'Average score'],
-  [CALLS.filter(x=>x.outcome==='booked_demo').length+' / '+CALLS.length,'Calls ending in a demo']
+  [SC.length,'SDR calls scored'],
+  [NSDR,'SDRs practising'],
+  [Math.round(avg(SC.map(x=>x.score))),'SDR average score'],
+  [SC.filter(x=>x.outcome==='booked_demo').length+' / '+SC.length,'SDR calls ending in a demo']
 ].map(([v,k])=>`<div class="card kpi"><span class="v">${v}</span><span class="k">${k}</span></div>`).join('');
 
 const tip=document.getElementById('tip');
@@ -501,8 +502,8 @@ function renderLB(){
   document.getElementById('lb').innerHTML=STATS.map((t,i)=>{
     const d=Math.round(t.delta),dc=d>2?'up':d<-2?'down':'flat',ds=d>0?'+'+d:d;
     return `<tr tabindex="0" data-id="${t.s.id}" class="${t.s.id===selected?'sel':''}">
-      <td class="rank">${i+1}</td>
-      <td class="name"><b>${t.s.name}</b><small>${t.s.sub}</small></td>
+      <td class="rank">${t.s.isSdr?i+1:'–'}</td>
+      <td class="name"><b>${t.s.name}${t.s.isSdr?'':' <span class="tag">Not ranked</span>'}</b><small>${t.s.sub}</small></td>
       <td><div class="scorebar"><div class="t"><div class="f" style="width:${t.score}%"></div></div><b>${Math.round(t.score)}</b></div></td>
       <td class="hide-s"><div style="display:flex;align-items:center;gap:8px">${spark(t.ss)}<span class="delta ${dc}">${ds}</span></div></td>
       <td class="r">${t.ss.length}</td>
@@ -526,7 +527,7 @@ function renderProfile(){
   const options=STATS.map(x=>`<option value="${x.s.id}" ${x.s.id===selected?'selected':''}>${x.s.name}</option>`).join('');
   document.getElementById('profile').innerHTML=`
     <div class="ph"><div class="avatar" aria-hidden="true">${s.name[0]}</div>
-      <div class="meta"><h2>${s.name}</h2><span>#${rank} of ${STATS.length} · ${ss.length} calls · score ${Math.round(t.score)} · ${pct(t.demo)} ended in a demo · focus next: <b>${(SKILLS.slice().sort((a,b)=>t.sk[a.k]-t.sk[b.k])[0]||{}).n}</b></span></div>
+      <div class="meta"><h2>${s.name}</h2><span>${s.isSdr?'#'+rank+' of '+NSDR+' SDRs':'Not ranked (not an SDR)'} · ${ss.length} calls · score ${Math.round(t.score)} · ${pct(t.demo)} ended in a demo · focus next: <b>${(SKILLS.slice().sort((a,b)=>t.sk[a.k]-t.sk[b.k])[0]||{}).n}</b></span></div>
       <label for="pick" class="dc">SDR</label><select id="pick">${options}</select></div>
     <div class="crit"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline"><h3>Skills</h3><div class="legend"><span><i class="lf"></i>${s.name}</span><span><i class="lm"></i>Team</span></div></div>${skillRows(t.sk,TEAM)}</div>
     <div class="pgrid">
@@ -537,7 +538,7 @@ function renderProfile(){
 }
 function select(id,scroll){selected=id;renderLB();renderProfile();if(scroll)document.getElementById('sdr').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
 
-document.getElementById('teamcrit').innerHTML='<h3>Team skills, all calls</h3>'+skillRows(TEAM,null)+'<p class="dc">Red = below 60%. Hover a bar to see which data points it combines.</p>';
+document.getElementById('teamcrit').innerHTML='<h3>Team skills, SDR calls</h3>'+skillRows(TEAM,null)+'<p class="dc">Red = below 60%. Hover a bar to see which data points it combines.</p>';
 document.getElementById('objs').innerHTML='<h3>Focus per rep</h3>'+STATS.map(t=>{const w=SKILLS.slice().filter(k=>t.sk[k.k]!==null).sort((a,b)=>t.sk[a.k]-t.sk[b.k]);const lo=w[0],hi=w[w.length-1];return `<div class="orow"><span><b>${esc(t.s.name)}</b><br><small>Strongest: ${hi?hi.n+' '+pct(t.sk[hi.k]):'–'}</small></span><span style="text-align:right">${lo?`<span class="tag warn">${lo.n} ${pct(t.sk[lo.k])}</span>`:''}</span></div>`}).join('')+'<p class="dc">Weakest skill per rep, over all their calls.</p>';
 const fS=document.getElementById('f-sdr'),fO=document.getElementById('f-out');
 fS.innerHTML='<option value="">All</option>'+SDRS.map(s=>`<option value="${s.id}">${s.name}</option>`).join('');
