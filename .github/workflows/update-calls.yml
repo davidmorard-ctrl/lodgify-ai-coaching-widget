@@ -2,9 +2,9 @@ name: Update roleplay results
 
 on:
   schedule:
-    # Runs at 8:00 AM and 2:00 PM Madrid / Central European Time
+    # Runs Monday to Friday at 7:00 and 13:00 Madrid in winter (8:00 and 14:00 in summer)
     # (06:00 UTC and 12:00 UTC)
-    - cron: "0 6,12 * * *"
+    - cron: "0 6,12 * * 1-5"   # weekdays only
   workflow_dispatch:       # Allows manual trigger via Actions tab anytime
 
 permissions:
