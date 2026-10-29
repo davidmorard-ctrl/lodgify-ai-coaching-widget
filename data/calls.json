@@ -1,7 +1,56 @@
 {
- "updated": "2026-10-28T11:45:29.586451+00:00",
+ "updated": "2026-10-29T12:25:35.663342+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_2201m61d1xa8fshadpq0wjsr3k7w",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-28T14:01:34+00:00",
+   "dur": 872,
+   "score": 40,
+   "outcome": "soft_next_step",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 8,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 0,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 0,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 0,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {
+    "objection_handled_arc": "L'agente ha riconosciuto l'obiezione del costo e del dover parlare con il marito. Ha provato a riformulare offrendo uno sconto potenziale e la possibilità di includere il marito nella demo, ma ha ripetuto lo stesso argomento più volte senza riuscire a superare l'obiezione o a ottenere un impegno.",
+    "secured_demo_or_disqualified": "L'agente ha chiesto più volte di fissare una demo e ha proposto un orario specifico, ma non è riuscito a ottenerla. La chiamata si è conclusa con l'invio di un'email e la possibilità di risentirsi, senza un next step concreto o una squalifica.",
+    "secured_next_step_or_disqualified": "L'agente ha tentato di ottenere un next step concreto (una demo con orario specifico), ma non è riuscito a fissarlo. La chiamata si è conclusa con l'invio di un'email e la possibilità di risentirsi, senza un impegno chiaro o una squalifica."
+   },
+   "spin": [
+    1,
+    1,
+    0,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep ha riassunto accuratamente la situazione e i problemi dell'agente prima di proporre la soluzione.",
+   "fix": "Superare l'obiezione del 'devo parlarne con il partner' con un approccio più strategico e meno ripetitivo.",
+   "summary": "The user, representing Logify, contacted a property owner about their vacation rental listed on Booking.com. The owner expressed satisfaction with their current setup (mainly Booking, 50% occupancy) and reluctance to increase bookings due to added work and bureaucracy.\n\nLogify proposed its platform to increase visibility, reduce commissions, and automate tasks like guest registration and city tax. The owner inquired about pricing (€56/month annual, €70/month monthly) and hidden costs, stating a need to discuss the investment and time commitment with her husband before booking a demo.\n\nDespite the user's attempts to address concerns (potential discounts, flexible demo length, husband's inclusion in demo), the owner maintained she could not commit without her husband's input. The conversation concluded with the user agreeing to send an email containing Logify's information and a link to book a demo for future consideration."
+  },
   {
    "id": "conv_9101m5z466g2e9fshvzvvvzkxk8n",
    "user_id": "e338cd26e9bf66885f97aaa3889c9cb5",
