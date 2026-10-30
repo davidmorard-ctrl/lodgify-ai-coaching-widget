@@ -1,7 +1,52 @@
 {
- "updated": "2026-10-29T12:25:35.663342+00:00",
+ "updated": "2026-10-30T12:16:52.038590+00:00",
  "agent_id": "agent_3301m3rwayvvekn88jhbhh012zre",
  "calls": [
+  {
+   "id": "conv_6101m63zkq8ffh29v0n99dp4fg20",
+   "user_id": "883e41df7c4b57ede2c305647128f47a",
+   "date": "2026-10-29T14:04:21+00:00",
+   "dur": 627,
+   "score": 70,
+   "outcome": "booked_demo",
+   "persona": "lifestyle_host",
+   "difficulty": "hard",
+   "objections": 6,
+   "talkHigh": true,
+   "lang": "IT",
+   "res": {
+    "discovery_and_scenario": 1,
+    "objection_handled_arc": 1,
+    "value_connected_to_situation": 1,
+    "secured_demo_or_disqualified": 1,
+    "maintained_control_and_rapport": 1,
+    "personalized_opening": 1,
+    "uncovered_compliance_admin": 1,
+    "asked_channel_qualifier": 1,
+    "discovery_before_pitch": 1,
+    "objection_handled_laer": 1,
+    "value_before_price": 1,
+    "secured_next_step_or_disqualified": 1,
+    "personalized_listing_opening": 1,
+    "compliance_hook_used_correctly": 1
+   },
+   "why": {},
+   "spin": [
+    1,
+    1,
+    0,
+    null
+   ],
+   "obj": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "good": "Il rep è riuscito a fissare una demo nonostante le numerose obiezioni e la resistenza iniziale del prospect.",
+   "fix": "Approfondire le implicazioni dei problemi sollevati dal prospect prima di presentare le soluzioni.",
+   "summary": "The conversation is a cold call from Logify, a vacation rental management software, to a property owner. The Logify agent pitches their service, highlighting benefits like multi-platform listing, direct booking website, and automation of bureaucratic tasks (e.g., Alloggiati Web).\n\nThe owner, initially hesitant and busy, expresses satisfaction with their 70-75% occupancy on Booking/Airbnb but acknowledges pain points like time-consuming manual registration processes and lack of direct bookings. Concerns about legal responsibility for automated processes and binding annual subscriptions are addressed.\n\nUltimately, a non-binding 30-minute demo is scheduled for Monday at 10:30 AM to showcase the Alloggiati automation and website features, with the meeting link to be sent via email."
+  },
   {
    "id": "conv_2201m61d1xa8fshadpq0wjsr3k7w",
    "user_id": "883e41df7c4b57ede2c305647128f47a",
